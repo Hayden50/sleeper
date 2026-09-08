@@ -103,7 +103,7 @@ POWER RANKINGS
 
 12. Darren 
     GBGs are in full rebuild, and really have no chance of succeeding this season. Regardless of the high likelihood of poor management driving this team into the ground, the fact is that the current lineup just won't be able
-    to consistently produce strong results. While Darren does have some high-ceiling players like Malik Nabers, Judkins, and Hurts, his team has the second highest coefficient of variability for starting player PPG (0.62 - tied with
+    to consistently produce strong results. While Darren does have some high-ceiling players like Malik Nabers, Judkins, and Hurts, his team has the second highest coefficient of variation for starting player PPG (0.62 - tied with
     Chandler), so we can expect a pretty boom or bust roster week to week. This means he may end up getting a few wins this season, especially if Nabers is playing at his pre-injury level, but probably not enough to find himself in the 
     playoffs. Along with Darren's struggles with low IQ and lack of ball knowledge, his team also struggles with depth, and has the third lowest bench projections in the running back position despite rostering 4 of them. I'd expect GBGs 
     to take care of Purdy Neat week 1, but the struggles will start soon after.
