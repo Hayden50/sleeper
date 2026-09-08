@@ -2,164 +2,164 @@ RANKING WORKSHEET (2026, starting-lineup projections, weeks 1-14)
 Sorted by projected starting-lineup points, highest first.
 This is a starting point, not the ranking - use it to help decide the order.
 
- 1. jlgreen  -  2045.7 projected pts
-      QB         Caleb Williams             275.9
+ 1. jlgreen  -  2041.4 projected pts
+      QB         Caleb Williams             274.0
       RB         Christian McCaffrey        288.7
       RB         James Cook                 226.5
       WR         Amon-Ra St. Brown          258.9
       WR         Rashee Rice                202.3
       TE         Colston Loveland           183.3
       FLEX       Garrett Wilson             169.3
-      SUPER_FLEX Matthew Stafford           253.7
+      SUPER_FLEX Matthew Stafford           251.3
       K          Nick Folk                   92.4
       DEF        JAX                         94.5
 
- 2. FredJHCJ09  -  1948.1 projected pts
-      QB         Jared Goff                 266.6
+ 2. FredJHCJ09  -  1943.7 projected pts
+      QB         Jared Goff                 264.4
       RB         Jahmyr Gibbs               292.7
       RB         Kenneth Walker             199.1
       WR         Drake London               215.7
       WR         Tee Higgins                201.7
       TE         Mark Andrews               136.2
       FLEX       Terry McLaurin             181.1
-      SUPER_FLEX Jordan Love                259.9
+      SUPER_FLEX Jordan Love                257.5
       K          Tyler Loop                  97.8
       DEF        BAL                         97.4
 
- 3. cjyarbrough  -  1868.7 projected pts
-      QB         Jaxson Dart                278.2
+ 3. cjyarbrough  -  1864.1 projected pts
+      QB         Jaxson Dart                276.0
       RB         Jonathan Taylor            252.5
       RB         Ashton Jeanty              190.2
       WR         George Pickens             201.6
       WR         Zay Flowers                198.8
       TE         Kyle Pitts                 148.1
       FLEX       Marvin Harrison            139.5
-      SUPER_FLEX Trevor Lawrence            260.1
+      SUPER_FLEX Trevor Lawrence            257.9
       K          Cam Little                  94.2
       DEF        PHI                        105.3
 
- 4. currancmm  -  1853.5 projected pts
-      QB         Jayden Daniels             274.3
+ 4. currancmm  -  1849.4 projected pts
+      QB         Jayden Daniels             272.5
       RB         De'Von Achane              224.7
       RB         Cam Skattebo               175.5
       WR         Ja'Marr Chase              254.5
       WR         Brian Thomas               140.2
       TE         Sam LaPorta                159.2
       FLEX       Romeo Doubs                133.3
-      SUPER_FLEX Dak Prescott               278.7
+      SUPER_FLEX Dak Prescott               276.5
       K          Jason Myers                 99.9
       DEF        SEA                        113.2
 
- 5. scottwilliamson2152  -  1842.4 projected pts
-      QB         Lamar Jackson              284.5
+ 5. scottwilliamson2152  -  1838.1 projected pts
+      QB         Lamar Jackson              282.7
       RB         Kyren Williams             188.6
       RB         D'Andre Swift              160.5
       WR         Jaxon Smith-Njigba         273.9
       WR         DeVonta Smith              195.4
       TE         Harold Fannin              138.1
       FLEX       Jameson Williams           181.9
-      SUPER_FLEX Aaron Rodgers              225.0
+      SUPER_FLEX Aaron Rodgers              222.5
       K          Cameron Dicker             102.4
       DEF        DET                         92.1
 
- 6. mwalter05  -  1796.8 projected pts
-      QB         Joe Burrow                 289.3
+ 6. mwalter05  -  1791.8 projected pts
+      QB         Joe Burrow                 287.1
       RB         Bucky Irving               156.9
       RB         Breece Hall                184.8
       WR         Nico Collins               226.8
       WR         Ladd McConkey              169.3
       TE         Tyler Warren               168.7
       FLEX       Parker Washington          149.2
-      SUPER_FLEX Sam Darnold                260.5
+      SUPER_FLEX Sam Darnold                257.8
       K          Chris Boswell               89.7
       DEF        DEN                        101.6
 
- 7. chandlerpittman  -  1781.9 projected pts
-      QB         Josh Allen                 299.6
+ 7. chandlerpittman  -  1777.8 projected pts
+      QB         Josh Allen                 297.4
       RB         Chase Brown                219.1
       RB         Bhayshul Tuten             142.1
       WR         CeeDee Lamb                226.3
       WR         Jaylen Waddle              192.9
       TE         Dallas Goedert             125.8
       FLEX       Rome Odunze                148.9
-      SUPER_FLEX Malik Willis               243.8
+      SUPER_FLEX Malik Willis               241.9
       K          Eddy Pineiro                93.5
       DEF        GB                          89.9
 
- 8. nathanmedley2153  -  1747.5 projected pts
-      QB         Bo Nix                     266.0
+ 8. nathanmedley2153  -  1742.8 projected pts
+      QB         Bo Nix                     263.5
       RB         Derrick Henry              199.3
       RB         Jaylen Warren              171.4
       WR         A.J. Brown                 212.1
       WR         Michael Wilson             148.0
       TE         Juwan Johnson              128.8
       FLEX       DK Metcalf                 152.4
-      SUPER_FLEX C.J. Stroud                246.9
+      SUPER_FLEX C.J. Stroud                244.7
       K          Brandon Aubrey              99.8
       DEF        LAR                        113.9  (bye wk sub used later this season)
 
- 9. Jsiegel1120  -  1744.3 projected pts
-      QB         Drake Maye                 274.0
-      RB         Jadarian Price             122.5
-      RB         TreVeyon Henderson         152.0
-      WR         Chris Olave                205.6
-      WR         Tetairoa McMillan          184.7
-      TE         Brock Bowers               210.7
-      FLEX       Christian Watson           178.9
-      SUPER_FLEX Bryce Young                229.6
-      K          Chase McLaughlin            92.5
-      DEF        NE                          94.0
-
-10. Theowgs10  -  1741.6 projected pts
-      QB         Patrick Mahomes            267.7
+ 9. Theowgs10  -  1736.9 projected pts
+      QB         Patrick Mahomes            265.6
       RB         Bijan Robinson             285.0
       RB         Travis Etienne             164.4
       WR         Puka Nacua                 268.8
       WR         Jalen Coker                154.1
       TE         Hunter Henry               118.5
       FLEX       J.K. Dobbins               107.3
-      SUPER_FLEX Baker Mayfield             254.5
+      SUPER_FLEX Baker Mayfield             251.9
       K          Daniel Carlson              38.5
       DEF        BUF                         82.7
 
-11. CharMcNabb  -  1732.0 projected pts
-      QB         Justin Herbert             256.8
+10. CharMcNabb  -  1712.5 projected pts
+      QB         Justin Herbert             254.8
       RB         Saquon Barkley             194.2
       RB         Javonte Williams           183.0
       WR         DJ Moore                   150.1
       WR         Jayden Reed                171.9
       TE         Trey McBride               203.5
       FLEX       Rico Dowdle                160.5
-      SUPER_FLEX Jacoby Brissett            224.1
+      SUPER_FLEX Geno Smith                 206.5
       K          Ka'imi Fairbairn           101.3
       DEF        PIT                         86.6
 
-12. dhunt2001  -  1596.4 projected pts
-      QB         Jalen Hurts                282.9
+11. Jsiegel1120  -  1705.0 projected pts
+      QB         Drake Maye                 271.6
+      RB         Jadarian Price             122.5
+      RB         Jacory Croskey-Merritt     117.3
+      WR         Chris Olave                205.6
+      WR         Tetairoa McMillan          184.7
+      TE         Brock Bowers               210.7
+      FLEX       Christian Watson           178.9
+      SUPER_FLEX Bryce Young                227.3
+      K          Chase McLaughlin            92.5
+      DEF        NE                          94.0
+
+12. dhunt2001  -  1592.1 projected pts
+      QB         Jalen Hurts                280.9
       RB         Quinshon Judkins           164.7
       RB         Tyjae Spears                97.8
       WR         Luther Burden              174.8
       WR         Malik Nabers               168.1
       TE         AJ Barner                  122.0
       FLEX       Carnell Tate               144.3
-      SUPER_FLEX Tyler Shough               254.8
+      SUPER_FLEX Tyler Shough               252.4
       K          Will Reichard               95.9
       DEF        KC                          91.1
 
-13. HaydenR50  -  1526.9 projected pts
-      QB         Kyler Murray               253.4
+13. HaydenR50  -  1522.8 projected pts
+      QB         Kyler Murray               251.4
       RB         Omarion Hampton            195.0
       RB         Keaton Mitchell             89.2
       WR         Justin Jefferson           218.5
       WR         Deebo Samuel               137.4
       TE         Jake Ferguson              128.2
       FLEX       Gunnar Helm                102.8
-      SUPER_FLEX Cam Ward                   226.0
+      SUPER_FLEX Cam Ward                   223.9
       K          Evan McPherson              97.2
       DEF        LAC                         79.1
 
-14. jessegeorge21  -  1292.0 projected pts
-      QB         Brock Purdy                287.5
+14. jessegeorge21  -  1289.6 projected pts
+      QB         Brock Purdy                285.0
       RB         Jeremiyah Love             199.5
       RB         MarShawn Lloyd              63.2
       WR         Emeka Egbuka               150.5

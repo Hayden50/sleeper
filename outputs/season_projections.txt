@@ -3,28 +3,28 @@ Scoring column used: pts_ppr
 
 TEAM TOTALS  (full roster vs. starting lineup w/ bye subs)
   TEAM                   ROSTER   STARTERS
-  jlgreen                3306.2     2045.7
-  FredJHCJ09             3014.3     1948.1
-  Jsiegel1120            2841.3     1744.3
-  Theowgs10              2777.9     1741.6
-  CharMcNabb             2775.2     1732.0
-  mwalter05              2724.6     1796.8
-  chandlerpittman        2719.7     1781.9
-  currancmm              2715.3     1853.5
-  scottwilliamson2152    2656.0     1842.4
-  dhunt2001              2600.4     1596.4
-  nathanmedley2153       2542.6     1747.5
-  cjyarbrough            2477.2     1868.7
-  HaydenR50              2316.0     1526.9
-  jessegeorge21          1898.7     1292.0
+  jlgreen                3305.6     2041.4
+  FredJHCJ09             3009.9     1943.7
+  Jsiegel1120            2824.4     1705.0
+  Theowgs10              2773.2     1736.9
+  CharMcNabb             2768.7     1712.5
+  mwalter05              2719.6     1791.8
+  chandlerpittman        2713.4     1777.8
+  currancmm              2711.2     1849.4
+  scottwilliamson2152    2651.6     1838.1
+  dhunt2001              2593.8     1592.1
+  nathanmedley2153       2537.9     1742.8
+  cjyarbrough            2472.7     1864.1
+  HaydenR50              2309.8     1522.8
+  jessegeorge21          1896.2     1289.6
 
 PER-TEAM ROSTER BREAKDOWN  (* = current starter, + = bye-week bench sub at some point)
 
-jlgreen (roster: 3306.2 pts, starters w/ bye subs: 2045.7 pts)
+jlgreen (roster: 3305.6 pts, starters w/ bye subs: 2041.4 pts)
   * RB   Christian McCaffrey        288.7
-  * QB   Caleb Williams             275.9
+  * QB   Caleb Williams             274.0
   * WR   Amon-Ra St. Brown          258.9
-  * QB   Matthew Stafford           253.7
+  * QB   Matthew Stafford           251.3
   * RB   James Cook                 226.5
   * WR   Rashee Rice                202.3
     RB   David Montgomery           184.6
@@ -33,7 +33,7 @@ jlgreen (roster: 3306.2 pts, starters w/ bye subs: 2045.7 pts)
     WR   Davante Adams              161.1
     WR   Alec Pierce                158.2
     TE   Travis Kelce               153.9
-    RB   Rhamondre Stevenson        144.1
+    RB   Rhamondre Stevenson        147.7
     TE   Isaiah Likely              125.8
     WR   Rashid Shaheed             118.8
     WR   Cooper Kupp                103.5
@@ -46,10 +46,10 @@ jlgreen (roster: 3306.2 pts, starters w/ bye subs: 2045.7 pts)
     QB   Joe Fagnano                  0.0
     RB   Roman Hemby                  0.0
 
-FredJHCJ09 (roster: 3014.3 pts, starters w/ bye subs: 1948.1 pts)
+FredJHCJ09 (roster: 3009.9 pts, starters w/ bye subs: 1943.7 pts)
   * RB   Jahmyr Gibbs               292.7
-  * QB   Jared Goff                 266.6
-  * QB   Jordan Love                259.9
+  * QB   Jared Goff                 264.4
+  * QB   Jordan Love                257.5
   * WR   Drake London               215.7
   * WR   Tee Higgins                201.7
   * RB   Kenneth Walker             199.1
@@ -71,19 +71,19 @@ FredJHCJ09 (roster: 3014.3 pts, starters w/ bye subs: 1948.1 pts)
     TE   Eli Stowers                 33.0
     WR   CJ Daniels                  27.8
 
-Jsiegel1120 (roster: 2841.3 pts, starters w/ bye subs: 1744.3 pts)
-  * QB   Drake Maye                 274.0
-  * QB   Bryce Young                229.6
+Jsiegel1120 (roster: 2824.4 pts, starters w/ bye subs: 1705.0 pts)
+  * QB   Drake Maye                 271.6
+  * QB   Bryce Young                227.3
   * TE   Brock Bowers               210.7
   * WR   Chris Olave                205.6
-    QB   Deshaun Watson             185.9
   * WR   Tetairoa McMillan          184.7
+    QB   Deshaun Watson             183.7
   * WR   Christian Watson           178.9
     RB   Josh Jacobs                170.2
-  * RB   TreVeyon Henderson         152.0
     WR   Stefon Diggs               146.5
+    RB   TreVeyon Henderson         141.9
   * RB   Jadarian Price             122.5
-    RB   Jacory Croskey-Merritt     117.3
+  * RB   Jacory Croskey-Merritt     117.3
     RB   Chris Rodriguez            102.5
   * DEF  NE                          94.0
   * K    Chase McLaughlin            92.5
@@ -98,11 +98,11 @@ Jsiegel1120 (roster: 2841.3 pts, starters w/ bye subs: 1744.3 pts)
     RB   Trey Benson                  0.0
     QB   Anthony Richardson           0.0
 
-Theowgs10 (roster: 2777.9 pts, starters w/ bye subs: 1741.6 pts)
+Theowgs10 (roster: 2773.2 pts, starters w/ bye subs: 1736.9 pts)
   * RB   Bijan Robinson             285.0
   * WR   Puka Nacua                 268.8
-  * QB   Patrick Mahomes            267.7
-  * QB   Baker Mayfield             254.5
+  * QB   Patrick Mahomes            265.6
+  * QB   Baker Mayfield             251.9
   * RB   Travis Etienne             164.4
     WR   Josh Downs                 159.0
   * WR   Jalen Coker                154.1
@@ -123,10 +123,10 @@ Theowgs10 (roster: 2777.9 pts, starters w/ bye subs: 1741.6 pts)
     RB   Jam Miller                   7.2
     WR   Deion Burks                  5.4
 
-CharMcNabb (roster: 2775.2 pts, starters w/ bye subs: 1732.0 pts)
-  * QB   Justin Herbert             256.8
-  * QB   Jacoby Brissett            224.1
-    QB   Geno Smith                 208.7
+CharMcNabb (roster: 2768.7 pts, starters w/ bye subs: 1712.5 pts)
+  * QB   Justin Herbert             254.8
+    QB   Jacoby Brissett            221.8
+  * QB   Geno Smith                 206.5
   * TE   Trey McBride               203.5
   * RB   Saquon Barkley             194.2
   * RB   Javonte Williams           183.0
@@ -150,9 +150,9 @@ CharMcNabb (roster: 2775.2 pts, starters w/ bye subs: 1732.0 pts)
     QB   Jack Strand                  0.0
     WR   Tyreek Hill                  0.0
 
-mwalter05 (roster: 2724.6 pts, starters w/ bye subs: 1796.8 pts)
-  * QB   Joe Burrow                 289.3
-  * QB   Sam Darnold                260.5
+mwalter05 (roster: 2719.6 pts, starters w/ bye subs: 1791.8 pts)
+  * QB   Joe Burrow                 287.1
+  * QB   Sam Darnold                257.8
   * WR   Nico Collins               226.8
   * RB   Breece Hall                184.8
   * WR   Ladd McConkey              169.3
@@ -176,10 +176,10 @@ mwalter05 (roster: 2724.6 pts, starters w/ bye subs: 1796.8 pts)
     TE   Ben Sinnott                 15.5
     RB   Eli Heidenreich              0.0
 
-chandlerpittman (roster: 2719.7 pts, starters w/ bye subs: 1781.9 pts)
-  * QB   Josh Allen                 299.6
-  * QB   Malik Willis               243.8
-    QB   Daniel Jones               240.5
+chandlerpittman (roster: 2713.4 pts, starters w/ bye subs: 1777.8 pts)
+  * QB   Josh Allen                 297.4
+  * QB   Malik Willis               241.9
+    QB   Daniel Jones               238.3
   * WR   CeeDee Lamb                226.3
   * RB   Chase Brown                219.1
   * WR   Jaylen Waddle              192.9
@@ -203,9 +203,9 @@ chandlerpittman (roster: 2719.7 pts, starters w/ bye subs: 1781.9 pts)
     WR   Jayden Higgins               0.0
     WR   Dohnte Meyers                0.0
 
-currancmm (roster: 2715.3 pts, starters w/ bye subs: 1853.5 pts)
-  * QB   Dak Prescott               278.7
-  * QB   Jayden Daniels             274.3
+currancmm (roster: 2711.2 pts, starters w/ bye subs: 1849.4 pts)
+  * QB   Dak Prescott               276.5
+  * QB   Jayden Daniels             272.5
   * WR   Ja'Marr Chase              254.5
   * RB   De'Von Achane              224.7
   * RB   Cam Skattebo               175.5
@@ -228,10 +228,10 @@ currancmm (roster: 2715.3 pts, starters w/ bye subs: 1853.5 pts)
     WR   Chris Brazzell               0.0
     QB   Garrett Nussmeier            0.0
 
-scottwilliamson2152 (roster: 2656.0 pts, starters w/ bye subs: 1842.4 pts)
-  * QB   Lamar Jackson              284.5
+scottwilliamson2152 (roster: 2651.6 pts, starters w/ bye subs: 1838.1 pts)
+  * QB   Lamar Jackson              282.7
   * WR   Jaxon Smith-Njigba         273.9
-  * QB   Aaron Rodgers              225.0
+  * QB   Aaron Rodgers              222.5
   * WR   DeVonta Smith              195.4
   * RB   Kyren Williams             188.6
   * WR   Jameson Williams           181.9
@@ -252,10 +252,10 @@ scottwilliamson2152 (roster: 2656.0 pts, starters w/ bye subs: 1842.4 pts)
     RB   Jordan James                23.8
     QB   Haynes King                  0.0
 
-dhunt2001 (roster: 2600.4 pts, starters w/ bye subs: 1596.4 pts)
-  * QB   Jalen Hurts                282.9
-  * QB   Tyler Shough               254.8
-    QB   Tua Tagovailoa             248.1
+dhunt2001 (roster: 2593.8 pts, starters w/ bye subs: 1592.1 pts)
+  * QB   Jalen Hurts                280.9
+  * QB   Tyler Shough               252.4
+    QB   Tua Tagovailoa             245.8
   * WR   Luther Burden              174.8
   * WR   Malik Nabers               168.1
   * RB   Quinshon Judkins           164.7
@@ -279,9 +279,9 @@ dhunt2001 (roster: 2600.4 pts, starters w/ bye subs: 1596.4 pts)
     RB   Kaleb Johnson                6.5
     RB   Roschon Johnson              3.1
 
-nathanmedley2153 (roster: 2542.6 pts, starters w/ bye subs: 1747.5 pts)
-  * QB   Bo Nix                     266.0
-  * QB   C.J. Stroud                246.9
+nathanmedley2153 (roster: 2537.9 pts, starters w/ bye subs: 1742.8 pts)
+  * QB   Bo Nix                     263.5
+  * QB   C.J. Stroud                244.7
   * WR   A.J. Brown                 212.1
   * RB   Derrick Henry              199.3
   * RB   Jaylen Warren              171.4
@@ -308,9 +308,9 @@ nathanmedley2153 (roster: 2542.6 pts, starters w/ bye subs: 1747.5 pts)
   bye-week substitutions:
     week 11  DEF        LAR (BYE) -> HOU (8.9)
 
-cjyarbrough (roster: 2477.2 pts, starters w/ bye subs: 1868.7 pts)
-  * QB   Jaxson Dart                278.2
-  * QB   Trevor Lawrence            260.1
+cjyarbrough (roster: 2472.7 pts, starters w/ bye subs: 1864.1 pts)
+  * QB   Jaxson Dart                276.0
+  * QB   Trevor Lawrence            257.9
   * RB   Jonathan Taylor            252.5
   * WR   George Pickens             201.6
   * WR   Zay Flowers                198.8
@@ -333,9 +333,9 @@ cjyarbrough (roster: 2477.2 pts, starters w/ bye subs: 1868.7 pts)
     QB   Carson Beck                  0.0
     QB   Justin Fields                0.0
 
-HaydenR50 (roster: 2316.0 pts, starters w/ bye subs: 1526.9 pts)
-  * QB   Kyler Murray               253.4
-  * QB   Cam Ward                   226.0
+HaydenR50 (roster: 2309.8 pts, starters w/ bye subs: 1522.8 pts)
+  * QB   Kyler Murray               251.4
+  * QB   Cam Ward                   223.9
   * WR   Justin Jefferson           218.5
   * RB   Omarion Hampton            195.0
     QB   Fernando Mendoza           174.5
@@ -352,16 +352,16 @@ HaydenR50 (roster: 2316.0 pts, starters w/ bye subs: 1526.9 pts)
     WR   Chris Bell                  68.5
     RB   Justice Hill                61.9
     RB   Braelon Allen               45.7
-    QB   Kirk Cousins                34.0
     RB   Emanuel Wilson              32.5
+    QB   Kirk Cousins                32.0
     RB   Seth McGowan                22.2
     WR   Kyle Williams                5.7
     RB   Adam Randall                 3.5
     QB   Jalen Milroe                 0.0
     QB   Ty Simpson                   0.0
 
-jessegeorge21 (roster: 1898.7 pts, starters w/ bye subs: 1292.0 pts)
-  * QB   Brock Purdy                287.5
+jessegeorge21 (roster: 1896.2 pts, starters w/ bye subs: 1289.6 pts)
+  * QB   Brock Purdy                285.0
   * RB   Jeremiyah Love             199.5
   * WR   Emeka Egbuka               150.5
   * WR   Chris Godwin               141.8

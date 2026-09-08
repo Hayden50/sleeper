@@ -7,10 +7,10 @@ dhunt2001                  24.0     9       24.0    10
     (no age on file, excluded: KC)
 cjyarbrough                24.4     9       24.6    10
     (no age on file, excluded: PHI)
-Jsiegel1120                24.8     9       26.2    10
-    (no age on file, excluded: NE)
 jessegeorge21              24.8     9       23.7    10
     (no age on file, excluded: MIN)
+Jsiegel1120                25.0     9       26.0    10
+    (no age on file, excluded: NE)
 HaydenR50                  26.1     9       27.2    10
     (no age on file, excluded: LAC)
 mwalter05                  26.8     9       25.0    10
@@ -27,7 +27,7 @@ Theowgs10                  27.8     9       27.4    10
     (no age on file, excluded: BUF)
 nathanmedley2153           28.0     9       25.2     9
     (no age on file, excluded: LAR, HOU)
-CharMcNabb                 28.6     9       27.5    10
+CharMcNabb                 28.8     9       27.3    10
     (no age on file, excluded: PIT)
 jlgreen                    28.8     9       28.9    10
     (no age on file, excluded: JAX)

@@ -8,19 +8,19 @@ Teams sorted most consistent (lowest average starter CV) to least.
   Theowgs10                0.48 0.34 0.41 0.50 0.67 0.57 0.65
   scottwilliamson2152      0.49 0.45 0.42 0.50 0.48 0.47 0.67
   currancmm                0.50 0.38 0.42 0.53 0.51 0.47 0.78
-  CharMcNabb               0.50 0.37 0.54 0.48 0.44 0.43 0.79
   mwalter05                0.50 0.49 0.48 0.52 0.43 0.55 0.53
+  CharMcNabb               0.52 0.46 0.54 0.48 0.44 0.43 0.79
   nathanmedley2153         0.52 0.41 0.50 0.63 0.44 0.55 0.53
   HaydenR50                0.55 0.28 0.58 0.52 0.61 0.72 0.77
-  Jsiegel1120              0.55 0.37 0.77 0.52 0.66 0.60 0.66
   cjyarbrough              0.56 0.48 0.58 0.53 0.78 0.46 0.61
+  Jsiegel1120              0.57 0.37 0.88 0.52 0.66 0.60 0.66
   FredJHCJ09               0.61 0.41 0.58 0.55 0.85 0.46 1.14
   dhunt2001                0.62 0.36 0.58 0.92 0.73 0.40 0.69
   chandlerpittman          0.62 0.67 0.62 0.52 0.56 0.53 0.94
   jessegeorge21            0.65 0.45     n/a 0.68 0.58 0.48 0.97
 
 LEAGUE AVERAGE CV BY POSITION (across all teams' starters)
-  QB     0.41
+  QB     0.42
   RB     0.52
   WR     0.56
   TE     0.61
@@ -101,24 +101,6 @@ currancmm (avg starter CV: 0.50)
   DEF (avg CV: 0.78)
       SEA                       games=17  mean=  10.6  stdev=   8.3  cv=0.78
 
-CharMcNabb (avg starter CV: 0.50)
-  QB (avg CV: 0.37)
-      Justin Herbert            games=16  mean=  18.7  stdev=   7.4  cv=0.39
-      Jacoby Brissett           games=13  mean=  18.1  stdev=   6.1  cv=0.34
-  RB (avg CV: 0.54)
-      Rico Dowdle               games=17  mean=  12.7  stdev=   9.5  cv=0.75
-      Saquon Barkley            games=16  mean=  14.5  stdev=   7.0  cv=0.48
-      Javonte Williams          games=16  mean=  15.2  stdev=   5.8  cv=0.38
-  WR (avg CV: 0.48)
-      DJ Moore                  games=16  mean=  10.6  stdev=   7.8  cv=0.73
-      Jayden Reed               games= 5  mean=   9.7  stdev=   2.2  cv=0.23
-  TE (avg CV: 0.44)
-      Trey McBride              games=17  mean=  18.6  stdev=   8.1  cv=0.44
-  K (avg CV: 0.43)
-      Ka'imi Fairbairn          games=15  mean=  12.7  stdev=   5.4  cv=0.43
-  DEF (avg CV: 0.79)
-      PIT                       games=17  mean=   8.3  stdev=   6.6  cv=0.79
-
 mwalter05 (avg starter CV: 0.50)
   QB (avg CV: 0.49)
       Sam Darnold               games=17  mean=  14.7  stdev=   7.7  cv=0.53
@@ -136,6 +118,24 @@ mwalter05 (avg starter CV: 0.50)
       Chris Boswell             games=17  mean=   8.5  stdev=   4.6  cv=0.55
   DEF (avg CV: 0.53)
       DEN                       games=16  mean=   9.2  stdev=   4.9  cv=0.53
+
+CharMcNabb (avg starter CV: 0.52)
+  QB (avg CV: 0.46)
+      Geno Smith                games=15  mean=  12.7  stdev=   6.8  cv=0.53
+      Justin Herbert            games=16  mean=  18.7  stdev=   7.4  cv=0.39
+  RB (avg CV: 0.54)
+      Rico Dowdle               games=17  mean=  12.7  stdev=   9.5  cv=0.75
+      Saquon Barkley            games=16  mean=  14.5  stdev=   7.0  cv=0.48
+      Javonte Williams          games=16  mean=  15.2  stdev=   5.8  cv=0.38
+  WR (avg CV: 0.48)
+      DJ Moore                  games=16  mean=  10.6  stdev=   7.8  cv=0.73
+      Jayden Reed               games= 5  mean=   9.7  stdev=   2.2  cv=0.23
+  TE (avg CV: 0.44)
+      Trey McBride              games=17  mean=  18.6  stdev=   8.1  cv=0.44
+  K (avg CV: 0.43)
+      Ka'imi Fairbairn          games=15  mean=  12.7  stdev=   5.4  cv=0.43
+  DEF (avg CV: 0.79)
+      PIT                       games=17  mean=   8.3  stdev=   6.6  cv=0.79
 
 nathanmedley2153 (avg starter CV: 0.52)
   QB (avg CV: 0.41)
@@ -173,24 +173,6 @@ HaydenR50 (avg starter CV: 0.55)
   DEF (avg CV: 0.77)
       LAC                       games=17  mean=   6.7  stdev=   5.2  cv=0.77
 
-Jsiegel1120 (avg starter CV: 0.55)
-  QB (avg CV: 0.37)
-      Bryce Young               games=16  mean=  14.3  stdev=   7.2  cv=0.50
-      Drake Maye                games=17  mean=  21.2  stdev=   5.1  cv=0.24
-  RB (avg CV: 0.77)
-      TreVeyon Henderson        games=17  mean=  12.1  stdev=   9.3  cv=0.77
-      Jadarian Price            games= 0  (not enough 2025 data for a CV - rookie or missed the season)
-  WR (avg CV: 0.52)
-      Tetairoa McMillan         games=17  mean=  12.4  stdev=   6.9  cv=0.55
-      Christian Watson          games=10  mean=  13.2  stdev=   7.3  cv=0.55
-      Chris Olave               games=16  mean=  16.8  stdev=   7.6  cv=0.45
-  TE (avg CV: 0.66)
-      Brock Bowers              games=12  mean=  14.7  stdev=   9.7  cv=0.66
-  K (avg CV: 0.60)
-      Chase McLaughlin          games=17  mean=   8.8  stdev=   5.3  cv=0.60
-  DEF (avg CV: 0.66)
-      NE                        games=17  mean=   7.6  stdev=   5.1  cv=0.66
-
 cjyarbrough (avg starter CV: 0.56)
   QB (avg CV: 0.48)
       Jaxson Dart               games=14  mean=  17.6  stdev=   9.8  cv=0.56
@@ -208,6 +190,24 @@ cjyarbrough (avg starter CV: 0.56)
       Cam Little                games=16  mean=   9.9  stdev=   4.6  cv=0.46
   DEF (avg CV: 0.61)
       PHI                       games=17  mean=   8.4  stdev=   5.1  cv=0.61
+
+Jsiegel1120 (avg starter CV: 0.57)
+  QB (avg CV: 0.37)
+      Bryce Young               games=16  mean=  14.3  stdev=   7.2  cv=0.50
+      Drake Maye                games=17  mean=  21.2  stdev=   5.1  cv=0.24
+  RB (avg CV: 0.88)
+      Jacory Croskey-Merritt    games=17  mean=   8.3  stdev=   7.2  cv=0.88
+      Jadarian Price            games= 0  (not enough 2025 data for a CV - rookie or missed the season)
+  WR (avg CV: 0.52)
+      Tetairoa McMillan         games=17  mean=  12.4  stdev=   6.9  cv=0.55
+      Christian Watson          games=10  mean=  13.2  stdev=   7.3  cv=0.55
+      Chris Olave               games=16  mean=  16.8  stdev=   7.6  cv=0.45
+  TE (avg CV: 0.66)
+      Brock Bowers              games=12  mean=  14.7  stdev=   9.7  cv=0.66
+  K (avg CV: 0.60)
+      Chase McLaughlin          games=17  mean=   8.8  stdev=   5.3  cv=0.60
+  DEF (avg CV: 0.66)
+      NE                        games=17  mean=   7.6  stdev=   5.1  cv=0.66
 
 FredJHCJ09 (avg starter CV: 0.61)
   QB (avg CV: 0.41)

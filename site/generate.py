@@ -250,7 +250,7 @@ def render_avatar(avatar_url: str | None, alt: str, size_class: str) -> str:
     return f'<div class="avatar avatar-fallback {size_class}">{initial}</div>'
 
 
-def render_team_card(team: dict, tier_slug: str, team_lookup: dict, points: dict, opponents: dict) -> str:
+def render_team_card(team: dict, tier_slug: str, team_lookup: dict, points: dict, opponents: dict, roster_html_by_username: dict) -> str:
     username = FIRST_NAME_TO_USERNAME[team["first_name"]]
     info = team_lookup.get(username, {})
     nickname = info.get("nickname", team["first_name"])
@@ -284,6 +284,7 @@ def render_team_card(team: dict, tier_slug: str, team_lookup: dict, points: dict
 
     avatar_html = render_avatar(avatar_url, nickname, "avatar-lg")
     proj_html = f"{proj:.1f}" if proj is not None else "—"
+    roster_html = roster_html_by_username.get(username, "")
 
     return f"""
       <article class="team-card tier-{tier_slug}" id="team-{esc(team["first_name"].lower())}">
@@ -307,14 +308,15 @@ def render_team_card(team: dict, tier_slug: str, team_lookup: dict, points: dict
         </div>
         <div class="team-card-body">
           {body_html}
+          {roster_html}
         </div>
       </article>"""
 
 
-def render_tier_section(tier: dict, team_lookup: dict, points: dict, opponents: dict) -> str:
+def render_tier_section(tier: dict, team_lookup: dict, points: dict, opponents: dict, roster_html_by_username: dict) -> str:
     slug = TIER_SLUGS.get(tier["name"], re.sub(r"[^a-z0-9]+", "-", tier["name"].lower()).strip("-"))
     cards = "\n".join(
-        render_team_card(t, slug, team_lookup, points, opponents) for t in tier["teams"]
+        render_team_card(t, slug, team_lookup, points, opponents, roster_html_by_username) for t in tier["teams"]
     )
     return f"""
     <section class="tier tier-{slug}" id="{slug}">
@@ -328,8 +330,8 @@ def render_tier_section(tier: dict, team_lookup: dict, points: dict, opponents: 
     </section>"""
 
 
-def render_page(tiers: list[dict], team_lookup: dict, points: dict, opponents: dict, league_name: str, week: int, season: str) -> str:
-    sections = "\n".join(render_tier_section(t, team_lookup, points, opponents) for t in tiers)
+def render_page(tiers: list[dict], team_lookup: dict, points: dict, opponents: dict, roster_html_by_username: dict, league_name: str, week: int, season: str) -> str:
+    sections = "\n".join(render_tier_section(t, team_lookup, points, opponents, roster_html_by_username) for t in tiers)
     nav_links = "\n".join(
         f'<a href="#{TIER_SLUGS.get(t["name"], "")}" class="nav-link nav-{TIER_SLUGS.get(t["name"], "")}">{esc(t["name"])}</a>'
         for t in tiers
@@ -378,11 +380,20 @@ def main():
     points = load_projected_points()
     tiers = parse_report(REPORT_PATH)
 
+    import roster  # deferred: roster.py imports back from this module
+
+    players = roster.load_players_catalog()
+    lineups = roster.build_starting_lineups(sleeper, team_lookup, players)
+    roster_html_by_username = {
+        username: roster.render_roster_details(slots) for username, slots in lineups.items()
+    }
+
     html_out = render_page(
         tiers,
         team_lookup,
         points,
         opponents,
+        roster_html_by_username,
         league_name=sleeper["league"].get("name", "Fantasy League"),
         week=sleeper["state"]["week"],
         season=sleeper["state"]["season"],

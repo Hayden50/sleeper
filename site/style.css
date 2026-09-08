@@ -382,6 +382,86 @@ a { color: inherit; }
   text-align: center;
 }
 
+/* ============================================================
+   Per-team "starting lineup" disclosure (main rankings page)
+   ============================================================ */
+
+.roster-detail {
+  margin-top: 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-raised);
+}
+
+.roster-detail summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-dim);
+}
+
+.roster-detail summary::-webkit-details-marker { display: none; }
+
+.roster-detail summary::before {
+  content: "\25B8";
+  color: var(--text-faint);
+  font-size: 0.75em;
+  transition: transform 0.15s ease;
+}
+
+.roster-detail[open] summary::before { transform: rotate(90deg); }
+
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(74px, 1fr));
+  gap: 12px;
+  padding: 2px 14px 16px;
+}
+
+.roster-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+  min-width: 0;
+}
+
+.roster-slot-photo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.roster-slot-photo-empty {
+  background: var(--surface);
+}
+
+.roster-slot-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-faint);
+}
+
+.roster-slot-name {
+  font-size: 0.72rem;
+  color: var(--text);
+  line-height: 1.25;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /* ---------------------------------- responsive --------------------------- */
 
 @media (max-width: 640px) {
@@ -412,6 +492,23 @@ a { color: inherit; }
   }
   .team-card {
     scroll-margin-top: 190px;
+  }
+
+  /* 10 roster tiles wrapping into several rows eats a lot of vertical
+     space on a narrow phone - scroll through them horizontally instead. */
+  .roster-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    gap: 14px;
+    padding: 2px 14px 16px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .roster-slot {
+    flex: 0 0 60px;
+    scroll-snap-align: start;
   }
 }
 
@@ -641,3 +738,4 @@ table.stat-table {
 .player-row .player-name { color: var(--text); }
 .player-row span { font-variant-numeric: tabular-nums; text-align: right; }
 .player-row .no-data { grid-column: 2 / -1; text-align: right; color: var(--text-faint); font-style: italic; }
+
