@@ -1,0 +1,73 @@
+name: Update site
+
+# Regenerates the power-rankings site (site/generate.py pulls live rosters,
+# avatars, and this-week's matchups from the Sleeper API) and redeploys it
+# to GitHub Pages - on a schedule, on demand, or whenever the report/output
+# data changes. Nothing is committed back to the repo; each run builds and
+# deploys fresh, straight from the Sleeper API + whatever is currently
+# checked in under reports/ and outputs/.
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub auto-disables scheduled workflows after
+    # ~60 days with no other repo activity - re-enable from the Actions
+    # tab if that happens, or push a commit to reset the clock.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "reports/**"
+      - "outputs/**"
+      - "site/**"
+      - "config/**"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Regenerate site (pulls live Sleeper data)
+        run: python site/generate.py
+
+      - name: Stage deployable output only
+        # site/ also holds the Python source that builds the page - only
+        # publish the actual HTML/CSS, not generate.py etc.
+        run: |
+          mkdir -p _site/stats
+          cp site/index.html site/style.css _site/
+          cp site/stats/variance.html _site/stats/
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

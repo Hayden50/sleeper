@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+
+# Claude-Artifact-preview-only files (base64-inlined avatars for previewing
+# the design in a chat session) - not part of the deployed site.
+site/_artifact_preview*.html
+site/_avatar_datauris.json
