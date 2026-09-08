@@ -1,0 +1,9 @@
+1. Projected points over the whole season
+2. Average age of player on each team - split between starters and bench players
+3. Draft 
+
+
+
+3. Depth per position (bench points?)
+4. High variance players
+5. 

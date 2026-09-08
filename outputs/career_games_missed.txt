@@ -1,0 +1,604 @@
+CAREER GAMES MISSED PER SEASON (last 5 completed seasons, 2021-2025, 17 games/season)
+Every rostered player (starters, bench, taxi, IR). Sorted most games missed/season first.
+
+  PLAYER                    POS  TEAM                  YRS  SSNS  AVG MISSED  TOTAL MISSED
+------------------------------------------------------------------------------------------
+  Jordan James              RB   scottwilliamson2152     1     1        17.0            17
+  Jacob Saylors             RB   chandlerpittman         3     3        16.7            50
+  MarShawn Lloyd            RB   jessegeorge21           2     2        16.5            33
+  Jalen Royals              WR   mwalter05               1     1        16.0            16
+  Jonathon Brooks           RB   chandlerpittman         2     2        15.5            31
+  Jalen Milroe              QB   HaydenR50               1     1        14.0            14
+  George Holani             RB   cjyarbrough             2     2        13.5            27
+  Malik Davis               RB   CharMcNabb              4     4        13.2            53
+  Deshaun Watson            QB   Jsiegel1120             9     5        13.2            66
+  Quinn Ewers               QB   jlgreen                 1     1        13.0            13
+  DJ Giddens                RB   mwalter05               1     1        13.0            13
+  Malik Willis              QB   chandlerpittman         4     4        12.5            50
+  J.J. McCarthy             QB   jessegeorge21           2     2        12.0            24
+  Tory Horton               WR   cjyarbrough             1     1        12.0            12
+  Anthony Richardson        QB   Jsiegel1120             3     3        11.3            34
+  Ben Sinnott               TE   mwalter05               2     2        11.0            22
+  Tahj Brooks               RB   cjyarbrough             1     1        11.0            11
+  J.K. Dobbins              RB   Theowgs10               6     5        10.6            53
+  Terrance Ferguson         TE   jessegeorge21           1     1        10.0            10
+  Travis Hunter             DB   chandlerpittman         1     1        10.0            10
+  Keaton Mitchell           RB   HaydenR50               3     3        10.0            30
+  Michael Penix             QB   chandlerpittman         2     2        10.0            20
+  Tank Dell                 WR   Theowgs10               3     3         9.3            28
+  Darren Waller             TE   chandlerpittman        11     5         9.2            46
+  Jalen Nailor              WR   CharMcNabb              4     4         9.0            36
+  Shedeur Sanders           QB   Jsiegel1120             1     1         9.0             9
+  Jalen McMillan            WR   mwalter05               2     2         9.0            18
+  Cam Skattebo              RB   currancmm               1     1         9.0             9
+  Trey Benson               RB   Jsiegel1120             2     2         9.0            18
+  John Metchie              WR   currancmm               4     4         8.5            34
+  Ricky Pearsall            WR   nathanmedley2153        2     2         8.5            17
+  Chris Rodriguez           RB   Jsiegel1120             3     3         8.3            25
+  Jacoby Brissett           QB   CharMcNabb             10     5         8.2            41
+  Kyle Williams             WR   HaydenR50               1     1         8.0             8
+  Sean Tucker               RB   dhunt2001               3     3         8.0            24
+  Elijah Arroyo             TE   Theowgs10               1     1         8.0             8
+  Isaac TeSlaa              WR   CharMcNabb              1     1         8.0             8
+  Ryan Flournoy             WR   cjyarbrough             2     2         8.0            16
+  Jack Bech                 WR   scottwilliamson2152     1     1         8.0             8
+  Chris Brooks              RB   cjyarbrough             3     3         8.0            24
+  Trevor Etienne            RB   currancmm               1     1         8.0             8
+  Omarion Hampton           RB   HaydenR50               1     1         8.0             8
+  Calvin Ridley             WR   HaydenR50               8     5         7.8            39
+  Jalen Tolbert             WR   FredJHCJ09              4     4         7.8            31
+  Rashee Rice               WR   jlgreen                 3     3         7.7            23
+  Brenton Strange           TE   dhunt2001               3     3         7.7            23
+  Malik Nabers              WR   dhunt2001               2     2         7.5            15
+  Roschon Johnson           RB   dhunt2001               3     3         7.3            22
+  Rico Dowdle               RB   CharMcNabb              6     5         7.2            36
+  Kayshon Boutte            WR   mwalter05               3     3         7.0            21
+  Kaleb Johnson             RB   dhunt2001               1     1         7.0             7
+  Jalen Coker               WR   Theowgs10               2     2         7.0            14
+  Savion Williams           WR   dhunt2001               1     1         7.0             7
+  Tyler Shough              QB   dhunt2001               1     1         7.0             7
+  Devaughn Vele             WR   Theowgs10               2     2         6.5            13
+  Braelon Allen             RB   HaydenR50               2     2         6.5            13
+  Justice Hill              RB   HaydenR50               7     5         6.4            32
+  Jameson Williams          WR   scottwilliamson2152     4     4         6.2            25
+  Pat Bryant                WR   FredJHCJ09              1     1         6.0             6
+  Jaylen Wright             RB   dhunt2001               2     2         6.0            12
+  Kyler Murray              QB   HaydenR50               7     5         6.0            30
+  Parker Washington         WR   mwalter05               3     3         6.0            18
+  Brandon Aiyuk             WR   jessegeorge21           6     5         5.8            29
+  Colby Parkinson           TE   FredJHCJ09              6     5         5.8            29
+  Daniel Jones              QB   chandlerpittman         7     5         5.8            29
+  Jordan Mason              RB   mwalter05               4     4         5.8            23
+  Christian Watson          WR   Jsiegel1120             4     4         5.8            23
+  Tucker Kraft              TE   scottwilliamson2152     3     3         5.7            17
+  Jake Bates                K    nathanmedley2153        3     3         5.7            17
+  Xavier Hutchinson         WR   chandlerpittman         3     3         5.7            17
+  Jordan Love               QB   FredJHCJ09              6     5         5.6            28
+  Rashod Bateman            WR   HaydenR50               5     5         5.6            28
+  Isaiah Davis              RB   chandlerpittman         2     2         5.5            11
+  Jahan Dotson              WR   chandlerpittman         4     4         5.2            21
+  Justin Fields             QB   cjyarbrough             5     5         5.2            26
+  Jayden Daniels            QB   currancmm               2     2         5.0            10
+  Keon Coleman              WR   Jsiegel1120             2     2         5.0            10
+  Andrei Iosivas            WR   FredJHCJ09              3     3         5.0            15
+  Theo Johnson              TE   jessegeorge21           2     2         5.0            10
+  Christian McCaffrey       RB   jlgreen                 9     5         4.8            24
+  Brock Purdy               QB   jessegeorge21           4     4         4.8            19
+  Rashid Shaheed            WR   jlgreen                 4     4         4.8            19
+  Jayden Reed               WR   CharMcNabb              3     3         4.7            14
+  Sam Darnold               QB   mwalter05               8     5         4.6            23
+  Chris Godwin              WR   jessegeorge21           9     5         4.6            23
+  Isiah Pacheco             RB   jessegeorge21           4     4         4.5            18
+  Isaiah Likely             TE   jlgreen                 4     4         4.5            18
+  Mac Jones                 QB   jessegeorge21           5     5         4.4            22
+  Emanuel Wilson            RB   HaydenR50               3     3         4.3            13
+  Noah Gray                 TE   cjyarbrough             5     5         4.2            21
+  Dallas Goedert            TE   chandlerpittman         8     5         4.2            21
+  Matthew Golden            WR   cjyarbrough             1     1         4.0             4
+  Cooper Kupp               WR   jlgreen                 9     5         4.0            20
+  Dalton Kincaid            TE   mwalter05               3     3         4.0            12
+  Nico Collins              WR   mwalter05               5     5         4.0            20
+  Adonai Mitchell           WR   dhunt2001               2     2         4.0             8
+  Dontayvion Wicks          WR   dhunt2001               3     3         4.0            12
+  Kirk Cousins              QB   HaydenR50              14     5         4.0            20
+  Jaylin Noel               WR   FredJHCJ09              1     1         4.0             4
+  Jauan Jennings            WR   nathanmedley2153        6     5         4.0            20
+  Khalil Shakir             WR   mwalter05               4     4         4.0            16
+  Tank Bigsby               RB   Jsiegel1120             3     3         4.0            12
+  Alvin Kamara              RB   scottwilliamson2152     9     5         3.8            19
+  David Njoku               TE   Theowgs10               9     5         3.8            19
+  Aaron Rodgers             QB   scottwilliamson2152    21     5         3.8            19
+  Travis Etienne            RB   Theowgs10               5     5         3.8            19
+  Kyren Williams            RB   scottwilliamson2152     4     4         3.8            15
+  Juwan Johnson             TE   nathanmedley2153        6     5         3.6            18
+  Tee Higgins               WR   FredJHCJ09              6     5         3.6            18
+  Wan'Dale Robinson         WR   FredJHCJ09              4     4         3.5            14
+  Bucky Irving              RB   mwalter05               2     2         3.5             7
+  Marvin Harrison           WR   cjyarbrough             2     2         3.5             7
+  Tua Tagovailoa            QB   dhunt2001               6     5         3.4            17
+  Joe Burrow                QB   mwalter05               6     5         3.4            17
+  T.J. Hockenson            TE   Theowgs10               7     5         3.4            17
+  Geno Smith                QB   CharMcNabb             13     5         3.4            17
+  Eddy Pineiro              K    chandlerpittman         8     5         3.4            17
+  Romeo Doubs               WR   currancmm               4     4         3.2            13
+  Alec Pierce               WR   jlgreen                 4     4         3.2            13
+  Chris Olave               WR   Jsiegel1120             4     4         3.2            13
+  Mike Gesicki              TE   HaydenR50               8     5         3.2            16
+  Mike Evans                WR   FredJHCJ09             12     5         3.2            16
+  Ka'imi Fairbairn          K    CharMcNabb             10     5         3.2            16
+  Jonathan Taylor           RB   cjyarbrough             6     5         3.2            16
+  Tyjae Spears              RB   dhunt2001               3     3         3.0             9
+  Sam LaPorta               TE   currancmm               3     3         3.0             9
+  Rome Odunze               WR   chandlerpittman         2     2         3.0             6
+  Rhamondre Stevenson       RB   jlgreen                 5     5         3.0            15
+  Dak Prescott              QB   currancmm              10     5         3.0            15
+  Javonte Williams          RB   CharMcNabb              5     5         3.0            15
+  Jaxson Dart               QB   cjyarbrough             1     1         3.0             3
+  Malik Washington          WR   jessegeorge21           2     2         3.0             6
+  Quentin Johnston          WR   nathanmedley2153        3     3         3.0             9
+  Tre' Harris               WR   HaydenR50               1     1         3.0             3
+  Breece Hall               RB   mwalter05               4     4         3.0            12
+  Lamar Jackson             QB   scottwilliamson2152     8     5         3.0            15
+  George Kittle             TE   nathanmedley2153        9     5         3.0            15
+  Quinshon Judkins          RB   dhunt2001               1     1         3.0             3
+  Keenan Allen              WR   Theowgs10              13     5         2.8            14
+  Najee Harris              RB   scottwilliamson2152     5     5         2.8            14
+  Tyreek Hill               WR   CharMcNabb             10     5         2.8            14
+  Brian Robinson            RB   scottwilliamson2152     4     4         2.8            11
+  Garrett Wilson            WR   jlgreen                 4     4         2.8            11
+  Chase Brown               RB   chandlerpittman         3     3         2.7             8
+  Michael Wilson            WR   nathanmedley2153        3     3         2.7             8
+  Tre Tucker                WR   jessegeorge21           3     3         2.7             8
+  Jerry Jeudy               WR   currancmm               6     5         2.6            13
+  Aaron Jones               RB   mwalter05               9     5         2.6            13
+  Brock Bowers              TE   Jsiegel1120             2     2         2.5             5
+  Kenneth Walker            RB   FredJHCJ09              4     4         2.5            10
+  Will Reichard             K    dhunt2001               2     2         2.5             5
+  Cade Otton                TE   currancmm               4     4         2.5            10
+  Drake Maye                QB   Jsiegel1120             2     2         2.5             5
+  Xavier Worthy             WR   currancmm               2     2         2.5             5
+  Jake Ferguson             TE   HaydenR50               4     4         2.5            10
+  Xavier Legette            WR   scottwilliamson2152     2     2         2.5             5
+  Ray Davis                 RB   CharMcNabb              2     2         2.5             5
+  Pat Freiermuth            TE   scottwilliamson2152     5     5         2.4            12
+  Marvin Mims               WR   jessegeorge21           3     3         2.3             7
+  Puka Nacua                WR   Theowgs10               3     3         2.3             7
+  De'Von Achane             RB   currancmm               3     3         2.3             7
+  Jordan Addison            WR   CharMcNabb              3     3         2.3             7
+  Trey McBride              TE   CharMcNabb              4     4         2.2             9
+  David Montgomery          RB   jlgreen                 7     5         2.2            11
+  Mark Andrews              TE   FredJHCJ09              8     5         2.2            11
+  Matthew Stafford          QB   jlgreen                17     5         2.2            11
+  Deebo Samuel              WR   HaydenR50               7     5         2.2            11
+  Derrick Henry             RB   nathanmedley2153       10     5         2.0            10
+  A.J. Brown                WR   nathanmedley2153        7     5         2.0            10
+  Ollie Gordon              RB   cjyarbrough             1     1         2.0             2
+  Colston Loveland          TE   jlgreen                 1     1         2.0             2
+  Luther Burden             WR   dhunt2001               1     1         2.0             2
+  Dylan Sampson             RB   jessegeorge21           1     1         2.0             2
+  LeQuint Allen             RB   jessegeorge21           1     1         2.0             2
+  Saquon Barkley            RB   CharMcNabb              8     5         2.0            10
+  Hunter Henry              TE   Theowgs10              10     5         2.0            10
+  Oronde Gadsden            TE   CharMcNabb              1     1         2.0             2
+  Bhayshul Tuten            RB   chandlerpittman         1     1         2.0             2
+  Kyle Pitts                TE   cjyarbrough             5     5         1.8             9
+  Terry McLaurin            WR   FredJHCJ09              7     5         1.8             9
+  D'Andre Swift             RB   scottwilliamson2152     6     5         1.8             9
+  Stefon Diggs              WR   Jsiegel1120            11     5         1.8             9
+  Chuba Hubbard             RB   chandlerpittman         5     5         1.8             9
+  Harrison Butker           K    currancmm               9     5         1.8             9
+  Chig Okonkwo              TE   scottwilliamson2152     4     4         1.8             7
+  Drake London              WR   FredJHCJ09              4     4         1.8             7
+  C.J. Stroud               QB   nathanmedley2153        3     3         1.7             5
+  Bryce Young               QB   Jsiegel1120             3     3         1.7             5
+  Josh Jacobs               RB   Jsiegel1120             7     5         1.6             8
+  Evan McPherson            K    HaydenR50               5     5         1.6             8
+  Jaylen Waddle             WR   chandlerpittman         5     5         1.6             8
+  Cole Kmet                 TE   jlgreen                 6     5         1.6             8
+  Jakobi Meyers             WR   Theowgs10               7     5         1.6             8
+  Trevor Lawrence           QB   cjyarbrough             5     5         1.6             8
+  Baker Mayfield            QB   Theowgs10               8     5         1.6             8
+  Troy Franklin             WR   dhunt2001               2     2         1.5             3
+  Cameron Dicker            K    scottwilliamson2152     4     4         1.5             6
+  AJ Barner                 TE   dhunt2001               2     2         1.5             3
+  Brian Thomas              WR   currancmm               2     2         1.5             3
+  Blake Corum               RB   Theowgs10               2     2         1.5             3
+  Davante Adams             WR   jlgreen                12     5         1.4             7
+  Ja'Marr Chase             WR   currancmm               5     5         1.4             7
+  Jalen Hurts               QB   dhunt2001               6     5         1.4             7
+  CeeDee Lamb               WR   chandlerpittman         6     5         1.4             7
+  Justin Jefferson          WR   HaydenR50               6     5         1.4             7
+  Josh Downs                WR   Theowgs10               3     3         1.3             4
+  DeVonta Smith             WR   scottwilliamson2152     5     5         1.2             6
+  Dalton Schultz            TE   FredJHCJ09              8     5         1.2             6
+  Chris Boswell             K    mwalter05              12     5         1.2             6
+  Courtland Sutton          WR   CharMcNabb              8     5         1.2             6
+  George Pickens            WR   cjyarbrough             4     4         1.0             4
+  Jaylen Warren             RB   nathanmedley2153        4     4         1.0             4
+  Jayden Higgins            WR   chandlerpittman         1     1         1.0             1
+  Harold Fannin             TE   scottwilliamson2152     1     1         1.0             1
+  Patrick Mahomes           QB   Theowgs10               9     5         1.0             5
+  Justin Herbert            QB   CharMcNabb              6     5         1.0             5
+  Woody Marks               RB   FredJHCJ09              1     1         1.0             1
+  Ladd McConkey             WR   mwalter05               2     2         1.0             2
+  Gunnar Helm               TE   HaydenR50               1     1         1.0             1
+  DK Metcalf                WR   nathanmedley2153        7     5         1.0             5
+  Elic Ayomanor             WR   currancmm               1     1         1.0             1
+  Tyrone Tracy              RB   Jsiegel1120             2     2         1.0             2
+  Daniel Carlson            K    Theowgs10               8     5         1.0             5
+  Kenny Gainwell            RB   Theowgs10               5     5         1.0             5
+  Nick Folk                 K    jlgreen                19     5         0.8             4
+  Travis Kelce              TE   jlgreen                13     5         0.8             4
+  Tony Pollard              RB   currancmm               7     5         0.8             4
+  Amon-Ra St. Brown         WR   jlgreen                 5     5         0.8             4
+  Rachaad White             RB   scottwilliamson2152     4     4         0.8             3
+  Jahmyr Gibbs              RB   FredJHCJ09              3     3         0.7             2
+  Zach Charbonnet           RB   CharMcNabb              3     3         0.7             2
+  Jared Goff                QB   FredJHCJ09             10     5         0.6             3
+  Michael Pittman           WR   CharMcNabb              6     5         0.6             3
+  Chase McLaughlin          K    Jsiegel1120             7     5         0.6             3
+  James Cook                RB   jlgreen                 4     4         0.5             2
+  Cam Little                K    cjyarbrough             2     2         0.5             1
+  Josh Allen                QB   chandlerpittman         8     5         0.4             2
+  Brandon Aubrey            K    nathanmedley2153        3     3         0.3             1
+  Zay Flowers               WR   cjyarbrough             3     3         0.3             1
+  Tyler Allgeier            RB   currancmm               4     4         0.2             1
+  DJ Moore                  WR   CharMcNabb              8     5         0.2             1
+  Jason Myers               K    currancmm              11     5         0.2             1
+  Tyler Loop                K    FredJHCJ09              1     1         0.0             0
+  RJ Harvey                 RB   FredJHCJ09              1     1         0.0             0
+  Chimere Dike              WR   Theowgs10               1     1         0.0             0
+  Ashton Jeanty             RB   cjyarbrough             1     1         0.0             0
+  Caleb Williams            QB   jlgreen                 2     2         0.0             0
+  TreVeyon Henderson        RB   Jsiegel1120             1     1         0.0             0
+  Kyle Monangai             RB   currancmm               1     1         0.0             0
+  Bo Nix                    QB   nathanmedley2153        2     2         0.0             0
+  Tyler Warren              TE   mwalter05               1     1         0.0             0
+  Bijan Robinson            RB   Theowgs10               3     3         0.0             0
+  Jaxon Smith-Njigba        WR   scottwilliamson2152     3     3         0.0             0
+  Tetairoa McMillan         WR   Jsiegel1120             1     1         0.0             0
+  Cam Ward                  QB   HaydenR50               1     1         0.0             0
+  Emeka Egbuka              WR   jessegeorge21           1     1         0.0             0
+  Andy Borregales           K    jessegeorge21           1     1         0.0             0
+  Jacory Croskey-Merritt    RB   Jsiegel1120             1     1         0.0             0
+
+NO CAREER DATA YET (rookies, and team defenses which have no individual years_exp - years_exp = 0, 79 players)
+  Demond Claiborne          RB   CharMcNabb
+  Eli Raridon               TE   CharMcNabb
+  J'Mari Taylor             RB   CharMcNabb
+  Jack Strand               QB   CharMcNabb
+  PIT                       DEF  CharMcNabb
+  BAL                       DEF  FredJHCJ09
+  CJ Daniels                WR   FredJHCJ09
+  Eli Stowers               TE   FredJHCJ09
+  Emmett Johnson            RB   FredJHCJ09
+  Adam Randall              RB   HaydenR50
+  Chris Bell                WR   HaydenR50
+  Fernando Mendoza          QB   HaydenR50
+  LAC                       DEF  HaydenR50
+  Seth McGowan              RB   HaydenR50
+  Ty Simpson                QB   HaydenR50
+  Jadarian Price            RB   Jsiegel1120
+  Kenyon Sadiq              TE   Jsiegel1120
+  Marlin Klein              TE   Jsiegel1120
+  NE                        DEF  Jsiegel1120
+  Tanner Koziol             TE   Jsiegel1120
+  Zachariah Branch          WR   Jsiegel1120
+  BUF                       DEF  Theowgs10
+  Deion Burks               WR   Theowgs10
+  Jam Miller                RB   Theowgs10
+  Colbie Young              WR   chandlerpittman
+  Dohnte Meyers             WR   chandlerpittman
+  GB                        DEF  chandlerpittman
+  Omar Cooper               WR   chandlerpittman
+  Oscar Delp                TE   chandlerpittman
+  Brenen Thompson           WR   cjyarbrough
+  Carson Beck               QB   cjyarbrough
+  Jordyn Tyson              WR   cjyarbrough
+  PHI                       DEF  cjyarbrough
+  Skyler Bell               WR   cjyarbrough
+  Chris Brazzell            WR   currancmm
+  Garrett Nussmeier         QB   currancmm
+  Kevin Coleman             WR   currancmm
+  SEA                       DEF  currancmm
+  Carnell Tate              WR   dhunt2001
+  Denzel Boston             WR   dhunt2001
+  Germie Bernard            WR   dhunt2001
+  KC                        DEF  dhunt2001
+  KC Concepcion             WR   dhunt2001
+  Max Klare                 TE   dhunt2001
+  Ted Hurst                 WR   dhunt2001
+  Antonio Williams          WR   jessegeorge21
+  Caleb Douglas             WR   jessegeorge21
+  De'Zhaun Stribling        WR   jessegeorge21
+  Drew Allar                QB   jessegeorge21
+  Jeremiyah Love            RB   jessegeorge21
+  Kaelon Black              RB   jessegeorge21
+  MIN                       DEF  jessegeorge21
+  Malachi Fields            WR   jessegeorge21
+  Taylen Green              QB   jessegeorge21
+  Cyrus Allen               WR   jlgreen
+  JAX                       DEF  jlgreen
+  Joe Fagnano               QB   jlgreen
+  Roman Hemby               RB   jlgreen
+  Zavion Thomas             WR   jlgreen
+  Bryce Lance               WR   mwalter05
+  DEN                       DEF  mwalter05
+  Eli Heidenreich           RB   mwalter05
+  Elijah Sarratt            WR   mwalter05
+  Kaytron Allen             RB   mwalter05
+  Makai Lemon               WR   mwalter05
+  Barion Brown              WR   nathanmedley2153
+  Cade Klubnik              QB   nathanmedley2153
+  HOU                       DEF  nathanmedley2153
+  Ja'Kobi Lane              WR   nathanmedley2153
+  Jack Endries              TE   nathanmedley2153
+  Jonah Coleman             RB   nathanmedley2153
+  Josh Cameron              WR   nathanmedley2153
+  LAR                       DEF  nathanmedley2153
+  Malik Benson              WR   nathanmedley2153
+  Matt Hibner               TE   nathanmedley2153
+  Mike Washington           RB   nathanmedley2153
+  DET                       DEF  scottwilliamson2152
+  Haynes King               QB   scottwilliamson2152
+  Nicholas Singleton        RB   scottwilliamson2152
+
+PER-PLAYER SEASON DETAIL (played / missed, out of 17 each season)
+  Jordan James              RB   scottwilliamson2152  2025: 0p/17m
+  Jacob Saylors             RB   chandlerpittman      2025: 1p/16m, 2024: 0p/17m, 2023: 0p/17m
+  MarShawn Lloyd            RB   jessegeorge21        2025: 0p/17m, 2024: 1p/16m
+  Jalen Royals              WR   mwalter05            2025: 1p/16m
+  Jonathon Brooks           RB   chandlerpittman      2025: 0p/17m, 2024: 3p/14m
+  Jalen Milroe              QB   HaydenR50            2025: 3p/14m
+  George Holani             RB   cjyarbrough          2025: 5p/12m, 2024: 2p/15m
+  Malik Davis               RB   CharMcNabb           2025: 9p/8m, 2024: 0p/17m, 2023: 0p/17m, 2022: 6p/11m
+  Deshaun Watson            QB   Jsiegel1120          2025: 0p/17m, 2024: 7p/10m, 2023: 6p/11m, 2022: 6p/11m, 2021: 0p/17m
+  Quinn Ewers               QB   jlgreen              2025: 4p/13m
+  DJ Giddens                RB   mwalter05            2025: 4p/13m
+  Malik Willis              QB   chandlerpittman      2025: 4p/13m, 2024: 5p/12m, 2023: 2p/15m, 2022: 7p/10m
+  J.J. McCarthy             QB   jessegeorge21        2025: 10p/7m, 2024: 0p/17m
+  Tory Horton               WR   cjyarbrough          2025: 5p/12m
+  Anthony Richardson        QB   Jsiegel1120          2025: 2p/15m, 2024: 11p/6m, 2023: 4p/13m
+  Ben Sinnott               TE   mwalter05            2025: 8p/9m, 2024: 4p/13m
+  Tahj Brooks               RB   cjyarbrough          2025: 6p/11m
+  J.K. Dobbins              RB   Theowgs10            2025: 10p/7m, 2024: 13p/4m, 2023: 1p/16m, 2022: 8p/9m, 2021: 0p/17m
+  Terrance Ferguson         TE   jessegeorge21        2025: 7p/10m
+  Travis Hunter             DB   chandlerpittman      2025: 7p/10m
+  Keaton Mitchell           RB   HaydenR50            2025: 12p/5m, 2024: 2p/15m, 2023: 7p/10m
+  Michael Penix             QB   chandlerpittman      2025: 9p/8m, 2024: 5p/12m
+  Tank Dell                 WR   Theowgs10            2025: 0p/17m, 2024: 13p/4m, 2023: 10p/7m
+  Darren Waller             TE   chandlerpittman      2025: 8p/9m, 2024: 0p/17m, 2023: 12p/5m, 2022: 8p/9m, 2021: 11p/6m
+  Jalen Nailor              WR   CharMcNabb           2025: 12p/5m, 2024: 14p/3m, 2023: 2p/15m, 2022: 4p/13m
+  Shedeur Sanders           QB   Jsiegel1120          2025: 8p/9m
+  Jalen McMillan            WR   mwalter05            2025: 4p/13m, 2024: 12p/5m
+  Cam Skattebo              RB   currancmm            2025: 8p/9m
+  Trey Benson               RB   Jsiegel1120          2025: 4p/13m, 2024: 12p/5m
+  John Metchie              WR   currancmm            2025: 12p/5m, 2024: 9p/8m, 2023: 13p/4m, 2022: 0p/17m
+  Ricky Pearsall            WR   nathanmedley2153     2025: 9p/8m, 2024: 8p/9m
+  Chris Rodriguez           RB   Jsiegel1120          2025: 12p/5m, 2024: 6p/11m, 2023: 8p/9m
+  Jacoby Brissett           QB   CharMcNabb           2025: 13p/4m, 2024: 7p/10m, 2023: 2p/15m, 2022: 13p/4m, 2021: 9p/8m
+  Kyle Williams             WR   HaydenR50            2025: 9p/8m
+  Sean Tucker               RB   dhunt2001            2025: 13p/4m, 2024: 11p/6m, 2023: 3p/14m
+  Elijah Arroyo             TE   Theowgs10            2025: 9p/8m
+  Isaac TeSlaa              WR   CharMcNabb           2025: 9p/8m
+  Ryan Flournoy             WR   cjyarbrough          2025: 12p/5m, 2024: 6p/11m
+  Jack Bech                 WR   scottwilliamson2152  2025: 9p/8m
+  Chris Brooks              RB   cjyarbrough          2025: 13p/4m, 2024: 11p/6m, 2023: 3p/14m
+  Trevor Etienne            RB   currancmm            2025: 9p/8m
+  Omarion Hampton           RB   HaydenR50            2025: 9p/8m
+  Calvin Ridley             WR   HaydenR50            2025: 7p/10m, 2024: 17p/0m, 2023: 17p/0m, 2022: 0p/17m, 2021: 5p/12m
+  Jalen Tolbert             WR   FredJHCJ09           2025: 8p/9m, 2024: 16p/1m, 2023: 11p/6m, 2022: 2p/15m
+  Rashee Rice               WR   jlgreen              2025: 8p/9m, 2024: 4p/13m, 2023: 16p/1m
+  Brenton Strange           TE   dhunt2001            2025: 12p/5m, 2024: 13p/4m, 2023: 3p/14m
+  Malik Nabers              WR   dhunt2001            2025: 4p/13m, 2024: 15p/2m
+  Roschon Johnson           RB   dhunt2001            2025: 2p/15m, 2024: 12p/5m, 2023: 15p/2m
+  Rico Dowdle               RB   CharMcNabb           2025: 17p/0m, 2024: 16p/1m, 2023: 16p/1m, 2022: 0p/17m, 2021: 0p/17m
+  Kayshon Boutte            WR   mwalter05            2025: 13p/4m, 2024: 15p/2m, 2023: 2p/15m
+  Kaleb Johnson             RB   dhunt2001            2025: 10p/7m
+  Jalen Coker               WR   Theowgs10            2025: 10p/7m, 2024: 10p/7m
+  Savion Williams           WR   dhunt2001            2025: 10p/7m
+  Tyler Shough              QB   dhunt2001            2025: 10p/7m
+  Devaughn Vele             WR   Theowgs10            2025: 9p/8m, 2024: 12p/5m
+  Braelon Allen             RB   HaydenR50            2025: 4p/13m, 2024: 17p/0m
+  Justice Hill              RB   HaydenR50            2025: 9p/8m, 2024: 15p/2m, 2023: 16p/1m, 2022: 13p/4m, 2021: 0p/17m
+  Jameson Williams          WR   scottwilliamson2152  2025: 15p/2m, 2024: 15p/2m, 2023: 11p/6m, 2022: 2p/15m
+  Pat Bryant                WR   FredJHCJ09           2025: 11p/6m
+  Jaylen Wright             RB   dhunt2001            2025: 9p/8m, 2024: 13p/4m
+  Kyler Murray              QB   HaydenR50            2025: 5p/12m, 2024: 17p/0m, 2023: 8p/9m, 2022: 11p/6m, 2021: 14p/3m
+  Parker Washington         WR   mwalter05            2025: 15p/2m, 2024: 12p/5m, 2023: 6p/11m
+  Brandon Aiyuk             WR   jessegeorge21        2025: 0p/17m, 2024: 7p/10m, 2023: 16p/1m, 2022: 17p/0m, 2021: 16p/1m
+  Colby Parkinson           TE   FredJHCJ09           2025: 13p/4m, 2024: 13p/4m, 2023: 13p/4m, 2022: 13p/4m, 2021: 4p/13m
+  Daniel Jones              QB   chandlerpittman      2025: 13p/4m, 2024: 10p/7m, 2023: 6p/11m, 2022: 16p/1m, 2021: 11p/6m
+  Jordan Mason              RB   mwalter05            2025: 16p/1m, 2024: 12p/5m, 2023: 9p/8m, 2022: 8p/9m
+  Christian Watson          WR   Jsiegel1120          2025: 10p/7m, 2024: 12p/5m, 2023: 9p/8m, 2022: 14p/3m
+  Tucker Kraft              TE   scottwilliamson2152  2025: 8p/9m, 2024: 16p/1m, 2023: 10p/7m
+  Jake Bates                K    nathanmedley2153     2025: 17p/0m, 2024: 17p/0m, 2023: 0p/17m
+  Xavier Hutchinson         WR   chandlerpittman      2025: 15p/2m, 2024: 9p/8m, 2023: 10p/7m
+  Jordan Love               QB   FredJHCJ09           2025: 15p/2m, 2024: 15p/2m, 2023: 17p/0m, 2022: 4p/13m, 2021: 6p/11m
+  Rashod Bateman            WR   HaydenR50            2025: 10p/7m, 2024: 16p/1m, 2023: 15p/2m, 2022: 5p/12m, 2021: 11p/6m
+  Isaiah Davis              RB   chandlerpittman      2025: 14p/3m, 2024: 9p/8m
+  Jahan Dotson              WR   chandlerpittman      2025: 11p/6m, 2024: 11p/6m, 2023: 14p/3m, 2022: 11p/6m
+  Justin Fields             QB   cjyarbrough          2025: 9p/8m, 2024: 10p/7m, 2023: 13p/4m, 2022: 15p/2m, 2021: 12p/5m
+  Jayden Daniels            QB   currancmm            2025: 7p/10m, 2024: 17p/0m
+  Keon Coleman              WR   Jsiegel1120          2025: 12p/5m, 2024: 12p/5m
+  Andrei Iosivas            WR   FredJHCJ09           2025: 13p/4m, 2024: 15p/2m, 2023: 8p/9m
+  Theo Johnson              TE   jessegeorge21        2025: 14p/3m, 2024: 10p/7m
+  Christian McCaffrey       RB   jlgreen              2025: 17p/0m, 2024: 4p/13m, 2023: 16p/1m, 2022: 17p/0m, 2021: 7p/10m
+  Brock Purdy               QB   jessegeorge21        2025: 9p/8m, 2024: 15p/2m, 2023: 16p/1m, 2022: 9p/8m
+  Rashid Shaheed            WR   jlgreen              2025: 18p/-1m, 2024: 5p/12m, 2023: 15p/2m, 2022: 11p/6m
+  Jayden Reed               WR   CharMcNabb           2025: 5p/12m, 2024: 16p/1m, 2023: 16p/1m
+  Sam Darnold               QB   mwalter05            2025: 17p/0m, 2024: 17p/0m, 2023: 10p/7m, 2022: 6p/11m, 2021: 12p/5m
+  Chris Godwin              WR   jessegeorge21        2025: 9p/8m, 2024: 7p/10m, 2023: 17p/0m, 2022: 15p/2m, 2021: 14p/3m
+  Isiah Pacheco             RB   jessegeorge21        2025: 13p/4m, 2024: 7p/10m, 2023: 14p/3m, 2022: 16p/1m
+  Isaiah Likely             TE   jlgreen              2025: 11p/6m, 2024: 14p/3m, 2023: 12p/5m, 2022: 13p/4m
+  Mac Jones                 QB   jessegeorge21        2025: 11p/6m, 2024: 10p/7m, 2023: 11p/6m, 2022: 14p/3m, 2021: 17p/0m
+  Emanuel Wilson            RB   HaydenR50            2025: 16p/1m, 2024: 17p/0m, 2023: 5p/12m
+  Noah Gray                 TE   cjyarbrough          2025: 12p/5m, 2024: 15p/2m, 2023: 14p/3m, 2022: 17p/0m, 2021: 6p/11m
+  Dallas Goedert            TE   chandlerpittman      2025: 15p/2m, 2024: 9p/8m, 2023: 13p/4m, 2022: 12p/5m, 2021: 15p/2m
+  Matthew Golden            WR   cjyarbrough          2025: 13p/4m
+  Cooper Kupp               WR   jlgreen              2025: 16p/1m, 2024: 11p/6m, 2023: 12p/5m, 2022: 9p/8m, 2021: 17p/0m
+  Dalton Kincaid            TE   mwalter05            2025: 11p/6m, 2024: 13p/4m, 2023: 15p/2m
+  Nico Collins              WR   mwalter05            2025: 15p/2m, 2024: 12p/5m, 2023: 15p/2m, 2022: 10p/7m, 2021: 13p/4m
+  Adonai Mitchell           WR   dhunt2001            2025: 12p/5m, 2024: 14p/3m
+  Dontayvion Wicks          WR   dhunt2001            2025: 13p/4m, 2024: 13p/4m, 2023: 13p/4m
+  Kirk Cousins              QB   HaydenR50            2025: 10p/7m, 2024: 14p/3m, 2023: 8p/9m, 2022: 17p/0m, 2021: 16p/1m
+  Jaylin Noel               WR   FredJHCJ09           2025: 13p/4m
+  Jauan Jennings            WR   nathanmedley2153     2025: 15p/2m, 2024: 15p/2m, 2023: 9p/8m, 2022: 15p/2m, 2021: 11p/6m
+  Khalil Shakir             WR   mwalter05            2025: 16p/1m, 2024: 15p/2m, 2023: 14p/3m, 2022: 7p/10m
+  Tank Bigsby               RB   Jsiegel1120          2025: 11p/6m, 2024: 15p/2m, 2023: 13p/4m
+  Alvin Kamara              RB   scottwilliamson2152  2025: 11p/6m, 2024: 14p/3m, 2023: 13p/4m, 2022: 15p/2m, 2021: 13p/4m
+  David Njoku               TE   Theowgs10            2025: 11p/6m, 2024: 11p/6m, 2023: 16p/1m, 2022: 14p/3m, 2021: 14p/3m
+  Aaron Rodgers             QB   scottwilliamson2152  2025: 16p/1m, 2024: 17p/0m, 2023: 0p/17m, 2022: 17p/0m, 2021: 16p/1m
+  Travis Etienne            RB   Theowgs10            2025: 17p/0m, 2024: 15p/2m, 2023: 17p/0m, 2022: 17p/0m, 2021: 0p/17m
+  Kyren Williams            RB   scottwilliamson2152  2025: 17p/0m, 2024: 16p/1m, 2023: 12p/5m, 2022: 8p/9m
+  Juwan Johnson             TE   nathanmedley2153     2025: 17p/0m, 2024: 15p/2m, 2023: 12p/5m, 2022: 14p/3m, 2021: 9p/8m
+  Tee Higgins               WR   FredJHCJ09           2025: 15p/2m, 2024: 12p/5m, 2023: 11p/6m, 2022: 15p/2m, 2021: 14p/3m
+  Wan'Dale Robinson         WR   FredJHCJ09           2025: 16p/1m, 2024: 17p/0m, 2023: 15p/2m, 2022: 6p/11m
+  Bucky Irving              RB   mwalter05            2025: 10p/7m, 2024: 17p/0m
+  Marvin Harrison           WR   cjyarbrough          2025: 11p/6m, 2024: 16p/1m
+  Tua Tagovailoa            QB   dhunt2001            2025: 14p/3m, 2024: 11p/6m, 2023: 17p/0m, 2022: 13p/4m, 2021: 13p/4m
+  Joe Burrow                QB   mwalter05            2025: 8p/9m, 2024: 17p/0m, 2023: 10p/7m, 2022: 17p/0m, 2021: 16p/1m
+  T.J. Hockenson            TE   Theowgs10            2025: 15p/2m, 2024: 10p/7m, 2023: 15p/2m, 2022: 17p/0m, 2021: 11p/6m
+  Geno Smith                QB   CharMcNabb           2025: 15p/2m, 2024: 17p/0m, 2023: 15p/2m, 2022: 17p/0m, 2021: 4p/13m
+  Eddy Pineiro              K    chandlerpittman      2025: 14p/3m, 2024: 17p/0m, 2023: 15p/2m, 2022: 17p/0m, 2021: 5p/12m
+  Romeo Doubs               WR   currancmm            2025: 15p/2m, 2024: 13p/4m, 2023: 16p/1m, 2022: 11p/6m
+  Alec Pierce               WR   jlgreen              2025: 14p/3m, 2024: 14p/3m, 2023: 15p/2m, 2022: 12p/5m
+  Chris Olave               WR   Jsiegel1120          2025: 16p/1m, 2024: 8p/9m, 2023: 16p/1m, 2022: 15p/2m
+  Mike Gesicki              TE   HaydenR50            2025: 12p/5m, 2024: 15p/2m, 2023: 13p/4m, 2022: 14p/3m, 2021: 15p/2m
+  Mike Evans                WR   FredJHCJ09           2025: 7p/10m, 2024: 14p/3m, 2023: 17p/0m, 2022: 15p/2m, 2021: 16p/1m
+  Ka'imi Fairbairn          K    CharMcNabb           2025: 15p/2m, 2024: 15p/2m, 2023: 12p/5m, 2022: 17p/0m, 2021: 10p/7m
+  Jonathan Taylor           RB   cjyarbrough          2025: 17p/0m, 2024: 14p/3m, 2023: 10p/7m, 2022: 11p/6m, 2021: 17p/0m
+  Tyjae Spears              RB   dhunt2001            2025: 13p/4m, 2024: 12p/5m, 2023: 17p/0m
+  Sam LaPorta               TE   currancmm            2025: 9p/8m, 2024: 16p/1m, 2023: 17p/0m
+  Rome Odunze               WR   chandlerpittman      2025: 11p/6m, 2024: 17p/0m
+  Rhamondre Stevenson       RB   jlgreen              2025: 14p/3m, 2024: 15p/2m, 2023: 12p/5m, 2022: 17p/0m, 2021: 12p/5m
+  Dak Prescott              QB   currancmm            2025: 17p/0m, 2024: 8p/9m, 2023: 17p/0m, 2022: 12p/5m, 2021: 16p/1m
+  Javonte Williams          RB   CharMcNabb           2025: 16p/1m, 2024: 17p/0m, 2023: 16p/1m, 2022: 4p/13m, 2021: 17p/0m
+  Jaxson Dart               QB   cjyarbrough          2025: 14p/3m
+  Malik Washington          WR   jessegeorge21        2025: 17p/0m, 2024: 11p/6m
+  Quentin Johnston          WR   nathanmedley2153     2025: 12p/5m, 2024: 14p/3m, 2023: 16p/1m
+  Tre' Harris               WR   HaydenR50            2025: 14p/3m
+  Breece Hall               RB   mwalter05            2025: 16p/1m, 2024: 16p/1m, 2023: 17p/0m, 2022: 7p/10m
+  Lamar Jackson             QB   scottwilliamson2152  2025: 13p/4m, 2024: 17p/0m, 2023: 16p/1m, 2022: 12p/5m, 2021: 12p/5m
+  George Kittle             TE   nathanmedley2153     2025: 10p/7m, 2024: 15p/2m, 2023: 16p/1m, 2022: 15p/2m, 2021: 14p/3m
+  Quinshon Judkins          RB   dhunt2001            2025: 14p/3m
+  Keenan Allen              WR   Theowgs10            2025: 17p/0m, 2024: 15p/2m, 2023: 13p/4m, 2022: 10p/7m, 2021: 16p/1m
+  Najee Harris              RB   scottwilliamson2152  2025: 3p/14m, 2024: 17p/0m, 2023: 17p/0m, 2022: 17p/0m, 2021: 17p/0m
+  Tyreek Hill               WR   CharMcNabb           2025: 4p/13m, 2024: 17p/0m, 2023: 16p/1m, 2022: 17p/0m, 2021: 17p/0m
+  Brian Robinson            RB   scottwilliamson2152  2025: 16p/1m, 2024: 14p/3m, 2023: 15p/2m, 2022: 12p/5m
+  Garrett Wilson            WR   jlgreen              2025: 6p/11m, 2024: 17p/0m, 2023: 17p/0m, 2022: 17p/0m
+  Chase Brown               RB   chandlerpittman      2025: 17p/0m, 2024: 16p/1m, 2023: 10p/7m
+  Michael Wilson            WR   nathanmedley2153     2025: 17p/0m, 2024: 15p/2m, 2023: 11p/6m
+  Tre Tucker                WR   jessegeorge21        2025: 16p/1m, 2024: 16p/1m, 2023: 11p/6m
+  Jerry Jeudy               WR   currancmm            2025: 16p/1m, 2024: 17p/0m, 2023: 16p/1m, 2022: 14p/3m, 2021: 9p/8m
+  Aaron Jones               RB   mwalter05            2025: 12p/5m, 2024: 17p/0m, 2023: 11p/6m, 2022: 17p/0m, 2021: 15p/2m
+  Brock Bowers              TE   Jsiegel1120          2025: 12p/5m, 2024: 17p/0m
+  Kenneth Walker            RB   FredJHCJ09           2025: 17p/0m, 2024: 11p/6m, 2023: 15p/2m, 2022: 15p/2m
+  Will Reichard             K    dhunt2001            2025: 16p/1m, 2024: 13p/4m
+  Cade Otton                TE   currancmm            2025: 14p/3m, 2024: 14p/3m, 2023: 16p/1m, 2022: 14p/3m
+  Drake Maye                QB   Jsiegel1120          2025: 17p/0m, 2024: 12p/5m
+  Xavier Worthy             WR   currancmm            2025: 13p/4m, 2024: 16p/1m
+  Jake Ferguson             TE   HaydenR50            2025: 16p/1m, 2024: 14p/3m, 2023: 17p/0m, 2022: 11p/6m
+  Xavier Legette            WR   scottwilliamson2152  2025: 14p/3m, 2024: 15p/2m
+  Ray Davis                 RB   CharMcNabb           2025: 13p/4m, 2024: 16p/1m
+  Pat Freiermuth            TE   scottwilliamson2152  2025: 15p/2m, 2024: 17p/0m, 2023: 11p/6m, 2022: 14p/3m, 2021: 16p/1m
+  Marvin Mims               WR   jessegeorge21        2025: 15p/2m, 2024: 14p/3m, 2023: 15p/2m
+  Puka Nacua                WR   Theowgs10            2025: 16p/1m, 2024: 11p/6m, 2023: 17p/0m
+  De'Von Achane             RB   currancmm            2025: 16p/1m, 2024: 17p/0m, 2023: 11p/6m
+  Jordan Addison            WR   CharMcNabb           2025: 13p/4m, 2024: 15p/2m, 2023: 16p/1m
+  Trey McBride              TE   CharMcNabb           2025: 17p/0m, 2024: 16p/1m, 2023: 17p/0m, 2022: 9p/8m
+  David Montgomery          RB   jlgreen              2025: 17p/0m, 2024: 14p/3m, 2023: 14p/3m, 2022: 16p/1m, 2021: 13p/4m
+  Mark Andrews              TE   FredJHCJ09           2025: 17p/0m, 2024: 15p/2m, 2023: 10p/7m, 2022: 15p/2m, 2021: 17p/0m
+  Matthew Stafford          QB   jlgreen              2025: 17p/0m, 2024: 16p/1m, 2023: 15p/2m, 2022: 9p/8m, 2021: 17p/0m
+  Deebo Samuel              WR   HaydenR50            2025: 16p/1m, 2024: 14p/3m, 2023: 15p/2m, 2022: 13p/4m, 2021: 16p/1m
+  Derrick Henry             RB   nathanmedley2153     2025: 17p/0m, 2024: 17p/0m, 2023: 17p/0m, 2022: 16p/1m, 2021: 8p/9m
+  A.J. Brown                WR   nathanmedley2153     2025: 15p/2m, 2024: 13p/4m, 2023: 17p/0m, 2022: 17p/0m, 2021: 13p/4m
+  Ollie Gordon              RB   cjyarbrough          2025: 15p/2m
+  Colston Loveland          TE   jlgreen              2025: 15p/2m
+  Luther Burden             WR   dhunt2001            2025: 15p/2m
+  Dylan Sampson             RB   jessegeorge21        2025: 15p/2m
+  LeQuint Allen             RB   jessegeorge21        2025: 15p/2m
+  Saquon Barkley            RB   CharMcNabb           2025: 16p/1m, 2024: 16p/1m, 2023: 14p/3m, 2022: 16p/1m, 2021: 13p/4m
+  Hunter Henry              TE   Theowgs10            2025: 17p/0m, 2024: 15p/2m, 2023: 12p/5m, 2022: 15p/2m, 2021: 16p/1m
+  Oronde Gadsden            TE   CharMcNabb           2025: 15p/2m
+  Bhayshul Tuten            RB   chandlerpittman      2025: 15p/2m
+  Kyle Pitts                TE   cjyarbrough          2025: 17p/0m, 2024: 15p/2m, 2023: 17p/0m, 2022: 10p/7m, 2021: 17p/0m
+  Terry McLaurin            WR   FredJHCJ09           2025: 10p/7m, 2024: 17p/0m, 2023: 16p/1m, 2022: 17p/0m, 2021: 16p/1m
+  D'Andre Swift             RB   scottwilliamson2152  2025: 16p/1m, 2024: 17p/0m, 2023: 16p/1m, 2022: 14p/3m, 2021: 13p/4m
+  Stefon Diggs              WR   Jsiegel1120          2025: 17p/0m, 2024: 8p/9m, 2023: 17p/0m, 2022: 17p/0m, 2021: 17p/0m
+  Chuba Hubbard             RB   chandlerpittman      2025: 15p/2m, 2024: 15p/2m, 2023: 17p/0m, 2022: 13p/4m, 2021: 16p/1m
+  Harrison Butker           K    currancmm            2025: 17p/0m, 2024: 13p/4m, 2023: 17p/0m, 2022: 13p/4m, 2021: 16p/1m
+  Chig Okonkwo              TE   scottwilliamson2152  2025: 16p/1m, 2024: 16p/1m, 2023: 16p/1m, 2022: 13p/4m
+  Drake London              WR   FredJHCJ09           2025: 12p/5m, 2024: 17p/0m, 2023: 15p/2m, 2022: 17p/0m
+  C.J. Stroud               QB   nathanmedley2153     2025: 14p/3m, 2024: 17p/0m, 2023: 15p/2m
+  Bryce Young               QB   Jsiegel1120          2025: 16p/1m, 2024: 14p/3m, 2023: 16p/1m
+  Josh Jacobs               RB   Jsiegel1120          2025: 15p/2m, 2024: 17p/0m, 2023: 13p/4m, 2022: 17p/0m, 2021: 15p/2m
+  Evan McPherson            K    HaydenR50            2025: 16p/1m, 2024: 12p/5m, 2023: 17p/0m, 2022: 17p/0m, 2021: 15p/2m
+  Jaylen Waddle             WR   chandlerpittman      2025: 16p/1m, 2024: 14p/3m, 2023: 14p/3m, 2022: 17p/0m, 2021: 16p/1m
+  Cole Kmet                 TE   jlgreen              2025: 16p/1m, 2024: 14p/3m, 2023: 15p/2m, 2022: 15p/2m, 2021: 17p/0m
+  Jakobi Meyers             WR   Theowgs10            2025: 16p/1m, 2024: 15p/2m, 2023: 16p/1m, 2022: 14p/3m, 2021: 16p/1m
+  Trevor Lawrence           QB   cjyarbrough          2025: 17p/0m, 2024: 10p/7m, 2023: 16p/1m, 2022: 17p/0m, 2021: 17p/0m
+  Baker Mayfield            QB   Theowgs10            2025: 17p/0m, 2024: 17p/0m, 2023: 17p/0m, 2022: 12p/5m, 2021: 14p/3m
+  Troy Franklin             WR   dhunt2001            2025: 16p/1m, 2024: 15p/2m
+  Cameron Dicker            K    scottwilliamson2152  2025: 17p/0m, 2024: 17p/0m, 2023: 17p/0m, 2022: 11p/6m
+  AJ Barner                 TE   dhunt2001            2025: 17p/0m, 2024: 14p/3m
+  Brian Thomas              WR   currancmm            2025: 14p/3m, 2024: 17p/0m
+  Blake Corum               RB   Theowgs10            2025: 17p/0m, 2024: 14p/3m
+  Davante Adams             WR   jlgreen              2025: 14p/3m, 2024: 14p/3m, 2023: 17p/0m, 2022: 17p/0m, 2021: 16p/1m
+  Ja'Marr Chase             WR   currancmm            2025: 16p/1m, 2024: 17p/0m, 2023: 16p/1m, 2022: 12p/5m, 2021: 17p/0m
+  Jalen Hurts               QB   dhunt2001            2025: 16p/1m, 2024: 15p/2m, 2023: 17p/0m, 2022: 15p/2m, 2021: 15p/2m
+  CeeDee Lamb               WR   chandlerpittman      2025: 13p/4m, 2024: 15p/2m, 2023: 17p/0m, 2022: 17p/0m, 2021: 16p/1m
+  Justin Jefferson          WR   HaydenR50            2025: 17p/0m, 2024: 17p/0m, 2023: 10p/7m, 2022: 17p/0m, 2021: 17p/0m
+  Josh Downs                WR   Theowgs10            2025: 16p/1m, 2024: 14p/3m, 2023: 17p/0m
+  DeVonta Smith             WR   scottwilliamson2152  2025: 17p/0m, 2024: 13p/4m, 2023: 16p/1m, 2022: 16p/1m, 2021: 17p/0m
+  Dalton Schultz            TE   FredJHCJ09           2025: 17p/0m, 2024: 17p/0m, 2023: 15p/2m, 2022: 13p/4m, 2021: 17p/0m
+  Chris Boswell             K    mwalter05            2025: 17p/0m, 2024: 17p/0m, 2023: 16p/1m, 2022: 12p/5m, 2021: 17p/0m
+  Courtland Sutton          WR   CharMcNabb           2025: 17p/0m, 2024: 16p/1m, 2023: 15p/2m, 2022: 14p/3m, 2021: 17p/0m
+  George Pickens            WR   cjyarbrough          2025: 17p/0m, 2024: 14p/3m, 2023: 17p/0m, 2022: 16p/1m
+  Jaylen Warren             RB   nathanmedley2153     2025: 16p/1m, 2024: 15p/2m, 2023: 17p/0m, 2022: 16p/1m
+  Jayden Higgins            WR   chandlerpittman      2025: 16p/1m
+  Harold Fannin             TE   scottwilliamson2152  2025: 16p/1m
+  Patrick Mahomes           QB   Theowgs10            2025: 14p/3m, 2024: 16p/1m, 2023: 16p/1m, 2022: 17p/0m, 2021: 17p/0m
+  Justin Herbert            QB   CharMcNabb           2025: 16p/1m, 2024: 17p/0m, 2023: 13p/4m, 2022: 17p/0m, 2021: 17p/0m
+  Woody Marks               RB   FredJHCJ09           2025: 16p/1m
+  Ladd McConkey             WR   mwalter05            2025: 16p/1m, 2024: 16p/1m
+  Gunnar Helm               TE   HaydenR50            2025: 16p/1m
+  DK Metcalf                WR   nathanmedley2153     2025: 15p/2m, 2024: 15p/2m, 2023: 16p/1m, 2022: 17p/0m, 2021: 17p/0m
+  Elic Ayomanor             WR   currancmm            2025: 16p/1m
+  Tyrone Tracy              RB   Jsiegel1120          2025: 15p/2m, 2024: 17p/0m
+  Daniel Carlson            K    Theowgs10            2025: 14p/3m, 2024: 17p/0m, 2023: 16p/1m, 2022: 16p/1m, 2021: 17p/0m
+  Kenny Gainwell            RB   Theowgs10            2025: 17p/0m, 2024: 16p/1m, 2023: 16p/1m, 2022: 16p/1m, 2021: 15p/2m
+  Nick Folk                 K    jlgreen              2025: 16p/1m, 2024: 14p/3m, 2023: 17p/0m, 2022: 17p/0m, 2021: 17p/0m
+  Travis Kelce              TE   jlgreen              2025: 17p/0m, 2024: 16p/1m, 2023: 15p/2m, 2022: 17p/0m, 2021: 16p/1m
+  Tony Pollard              RB   currancmm            2025: 17p/0m, 2024: 16p/1m, 2023: 17p/0m, 2022: 16p/1m, 2021: 15p/2m
+  Amon-Ra St. Brown         WR   jlgreen              2025: 16p/1m, 2024: 17p/0m, 2023: 16p/1m, 2022: 16p/1m, 2021: 16p/1m
+  Rachaad White             RB   scottwilliamson2152  2025: 17p/0m, 2024: 15p/2m, 2023: 17p/0m, 2022: 16p/1m
+  Jahmyr Gibbs              RB   FredJHCJ09           2025: 17p/0m, 2024: 17p/0m, 2023: 15p/2m
+  Zach Charbonnet           RB   CharMcNabb           2025: 16p/1m, 2024: 17p/0m, 2023: 16p/1m
+  Jared Goff                QB   FredJHCJ09           2025: 17p/0m, 2024: 17p/0m, 2023: 17p/0m, 2022: 17p/0m, 2021: 14p/3m
+  Michael Pittman           WR   CharMcNabb           2025: 17p/0m, 2024: 16p/1m, 2023: 16p/1m, 2022: 16p/1m, 2021: 17p/0m
+  Chase McLaughlin          K    Jsiegel1120          2025: 17p/0m, 2024: 17p/0m, 2023: 17p/0m, 2022: 15p/2m, 2021: 16p/1m
+  James Cook                RB   jlgreen              2025: 17p/0m, 2024: 16p/1m, 2023: 17p/0m, 2022: 16p/1m
+  Cam Little                K    cjyarbrough          2025: 16p/1m, 2024: 17p/0m
+  Josh Allen                QB   chandlerpittman      2025: 16p/1m, 2024: 16p/1m, 2023: 17p/0m, 2022: 17p/0m, 2021: 17p/0m
+  Brandon Aubrey            K    nathanmedley2153     2025: 17p/0m, 2024: 16p/1m, 2023: 17p/0m
+  Zay Flowers               WR   cjyarbrough          2025: 17p/0m, 2024: 17p/0m, 2023: 16p/1m
+  Tyler Allgeier            RB   currancmm            2025: 17p/0m, 2024: 17p/0m, 2023: 17p/0m, 2022: 16p/1m
+  DJ Moore                  WR   CharMcNabb           2025: 16p/1m, 2024: 17p/0m, 2023: 17p/0m, 2022: 17p/0m, 2021: 17p/0m
+  Jason Myers               K    currancmm            2025: 17p/0m, 2024: 17p/0m, 2023: 17p/0m, 2022: 17p/0m, 2021: 16p/1m
+  Tyler Loop                K    FredJHCJ09           2025: 17p/0m
+  RJ Harvey                 RB   FredJHCJ09           2025: 17p/0m
+  Chimere Dike              WR   Theowgs10            2025: 17p/0m
+  Ashton Jeanty             RB   cjyarbrough          2025: 17p/0m
+  Caleb Williams            QB   jlgreen              2025: 17p/0m, 2024: 17p/0m
+  TreVeyon Henderson        RB   Jsiegel1120          2025: 17p/0m
+  Kyle Monangai             RB   currancmm            2025: 17p/0m
+  Bo Nix                    QB   nathanmedley2153     2025: 17p/0m, 2024: 17p/0m
+  Tyler Warren              TE   mwalter05            2025: 17p/0m
+  Bijan Robinson            RB   Theowgs10            2025: 17p/0m, 2024: 17p/0m, 2023: 17p/0m
+  Jaxon Smith-Njigba        WR   scottwilliamson2152  2025: 17p/0m, 2024: 17p/0m, 2023: 17p/0m
+  Tetairoa McMillan         WR   Jsiegel1120          2025: 17p/0m
+  Cam Ward                  QB   HaydenR50            2025: 17p/0m
+  Emeka Egbuka              WR   jessegeorge21        2025: 17p/0m
+  Andy Borregales           K    jessegeorge21        2025: 17p/0m
+  Jacory Croskey-Merritt    RB   Jsiegel1120          2025: 17p/0m

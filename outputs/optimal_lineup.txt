@@ -1,0 +1,49 @@
+OPTIMAL vs. ACTUAL STARTING LINEUP (2026, season-total projected points)
+Sorted by points left on the table (optimal - actual), highest first.
+
+  TEAM                   ACTUAL  OPTIMAL  LEFT ON TABLE
+  Theowgs10              1741.6   1793.3           51.7
+  Jsiegel1120            1744.3   1792.0           47.7
+  jessegeorge21          1292.0   1319.2           27.1
+  nathanmedley2153       1738.6   1764.1           25.5
+  scottwilliamson2152    1842.5   1864.4           21.9
+  jlgreen                2045.7   2061.0           15.3
+  currancmm              1853.5   1856.1            2.6
+  CharMcNabb             1732.0   1732.0            0.0
+  mwalter05              1796.8   1796.8            0.0
+  cjyarbrough            1868.7   1868.7            0.0
+  dhunt2001              1596.4   1596.4            0.0
+  FredJHCJ09             1948.2   1948.2            0.0
+  HaydenR50              1526.9   1526.9           -0.0
+  chandlerpittman        1781.9   1781.8           -0.0
+
+SUGGESTED SWAPS (where the optimal lineup differs from the actual starters)
+Teams with ~0 pts available are omitted - any 'diff' there is just two starters
+relabeled between identical slots (e.g. WR1/WR2), not an actual lineup change.
+
+Theowgs10 (+51.7 pts available)
+  WR         Jalen Coker             154.1  ->  Josh Downs              159.0
+  FLEX       J.K. Dobbins            107.3  ->  Jalen Coker             154.1
+
+Jsiegel1120 (+47.7 pts available)
+  RB         Jadarian Price          122.5  ->  Josh Jacobs             170.2
+
+jessegeorge21 (+27.1 pts available)
+  RB         MarShawn Lloyd           63.2  ->  Dylan Sampson            85.6
+  SUPER_FLEX Malik Washington         88.7  ->  De'Zhaun Stribling       93.5
+
+nathanmedley2153 (+25.5 pts available)
+  WR         Michael Wilson          148.0  ->  DK Metcalf              152.4
+  TE         Juwan Johnson           128.8  ->  George Kittle           154.3
+  FLEX       DK Metcalf              152.4  ->  Michael Wilson          148.0
+
+scottwilliamson2152 (+21.9 pts available)
+  TE         Harold Fannin           138.1  ->  Tucker Kraft            160.0
+
+jlgreen (+15.3 pts available)
+  FLEX       Garrett Wilson          169.3  ->  David Montgomery        184.6
+
+currancmm (+2.6 pts available)
+  QB         Jayden Daniels          274.3  ->  Dak Prescott            278.7
+  FLEX       Romeo Doubs             133.3  ->  Xavier Worthy           135.8
+  SUPER_FLEX Dak Prescott            278.7  ->  Jayden Daniels          274.3

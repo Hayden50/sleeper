@@ -1,0 +1,33 @@
+AVERAGE PLAYER AGE BY TEAM (starters vs. bench)
+Bench excludes taxi squad and IR. Team defenses have no age on file and are excluded.
+
+TEAM                   STARTERS   (n)      BENCH   (n)
+------------------------------------------------------
+dhunt2001                  24.0     9       24.0    10
+    (no age on file, excluded: KC)
+cjyarbrough                24.4     9       24.6    10
+    (no age on file, excluded: PHI)
+Jsiegel1120                24.8     9       26.2    10
+    (no age on file, excluded: NE)
+jessegeorge21              24.8     9       23.7    10
+    (no age on file, excluded: MIN)
+HaydenR50                  26.1     9       27.2    10
+    (no age on file, excluded: LAC)
+mwalter05                  26.8     9       25.0    10
+    (no age on file, excluded: DEN)
+currancmm                  26.8     9       25.8    10
+    (no age on file, excluded: SEA)
+chandlerpittman            27.2     9       26.2    10
+    (no age on file, excluded: GB)
+FredJHCJ09                 27.2     9       26.5    10
+    (no age on file, excluded: BAL)
+scottwilliamson2152        27.6     9       26.2    10
+    (no age on file, excluded: DET)
+Theowgs10                  27.8     9       27.4    10
+    (no age on file, excluded: BUF)
+nathanmedley2153           28.0     9       25.2     9
+    (no age on file, excluded: LAR, HOU)
+CharMcNabb                 28.6     9       27.5    10
+    (no age on file, excluded: PIT)
+jlgreen                    28.8     9       28.9    10
+    (no age on file, excluded: JAX)

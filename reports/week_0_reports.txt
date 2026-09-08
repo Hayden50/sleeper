@@ -1,0 +1,129 @@
+POWER RANKINGS
+
+==== Champions ====
+
+1. Jacob
+    Going into the season, Cookie Wookies is clearly the front runner to win the league. In many ways, Jacob's team is the exact opposite of Purdy Neat. He has the oldest team, with the highest projected points over the season,
+    and the deepest bench (also having the highest projected points out of any bench) with significant depth in the RB, WR, and TE positions. When his players are healthy, Jacob's team is also the most consistent - with just a 
+    0.46 average coefficient of variation (stdev / mean) of his starters' PPG (significantly leading all other teams). With it being almost certain that his team will make the playoffs, Jacob's biggest worries should be injuries 
+    to key players like Christian McCaffrey (24 career games missed) and Garrett Wilson or injuries to either of his QBs, requiring him to make a trade or FA pickup to field the spot. He also has to take into account Rashee Rice's 
+    off the field issues.
+
+
+2. Brett
+    Last year LeGibbs had a dissapointing playoff run, but with offseason changes there is even more hope for a deep run. Unlike Jacob's team, this team is relatively young at just 27.2 years old on average. On top of having
+    Gibbs, Kenneth Walker becoming a clear RB1 on the chiefs is a huge bonus, and Drake London is playing in a completely empty Falcons receiver room, which should get him a lot of targets. Brett does have some depth issues at 
+    TE, being forced to choose between Mark Andrews and Dalton Schultz, and there is the concern of the falcons QB situation resulting in a terrible offense, but generally this is a really strong team that should expect to make a
+    deep playoff run. 
+
+
+===== Deep Playoff Runs ======
+
+
+3. Curran
+    Curran has a solid team with real potential to grab his second championship this year. The move to superflex has worked in his favor, as he is able to start two of the highest projected QBs in the league with Jayden Daniels 
+    (274.3 season proj) and Dak Prescott (278.7 season proj), not to mention he has the WR1 with Jamarr Chase and is one of just a few teams with full draft capital for the next 3 seasons if he wants to make a big-grab later in the
+    season to push for a stronger playoff showing. While his starting running backs are liable for injury, with Skattebo missing 9 games in his rookie year, he does have a deep set of backups, and could reasonably start Pollard, 
+    Monangai, or Allgeier if necessary. I'd expect this team to be contending late in the playoffs unless injuries to key players like the QBs or Chase kill the momentum.
+
+
+4. Matt
+    Matt has a strong starting lineup without many weak points. While only ranking 6th in starter points projected (1797.1) and 6th in bench points projected (845.5), there are reasonably startable bench players available for RB,
+    WR, and TE, which is rare on any lineup. On top of that, his starting receivers all have a good chance at improving over last year, with Nico Collins primed for a huge target share and Ladd getting a new CO and hopefully shaking his
+    sophomore slump, there is a good chance Matt could make a push to the championship and be a potential dark horse. With Burrow missing 9 games in 2025 and 17 total in his 6 year career, he is the question mark for the roster. If he gets
+    hurt again this year, it puts a lot of pressure on the team and there is no backup to slot in without dropping the QB in the superflex spot.
+
+
+5. Scott
+    Despite some egregious trade decisions in the history of the King of the Njigbas organization, Scott's team is still actually pretty good. His starting lineup is the 3rd most consistent in the league, with a coefficient of 
+    variation at 0.49 (stdev / mean). For a team that has the 5th highest season projected points (1842.6), this is a good thing. One area where Scott struggles in reciever depth, where he has the lowest projected points for a bench receiver
+    room by a significant margin at just 95.6 points for all bench receivers combined over the whole season, which is pretty much nothing. This is made up for slightly by having the deepest TE room with Tucker Kraft, Chig Okonkwo, 
+    and Pat Freiermuth all buried behind Harold Fannin, but if JSN or Devonta Smith see significant injury trouble, the team will still be in trouble. I'd be surprised to see this team make a real run at the championship, but 
+    with enough luck in the injury department, it is definitely possible. 
+
+
+===== Solid Playoff Teams ======
+
+6. Theo
+
+    - Having to play Jacob twice is tough
+    - CLAUDE: [Updated 2026-09-08 after pulling fresh rosters] Theo has since swapped his lineup - Jalen Coker is now in for Jakobi Meyers at WR, and J.K. Dobbins is in for Blake Corum at FLEX. That alone moved his projected starting total from 1725.5 to 1741.6 pts, jumping him from 11th to 10th in the league - now just ahead of Charles (1732.0) and just behind Siegel (1744.3)
+    - CLAUDE: With the new lineup, Theo now has the 2nd-most consistent starting lineup in the entire league (0.48 avg CV) - trailing only Jacob's Cookie Wookies (0.46). That's a real change from before the swap, when he graded out mid-pack (0.52)
+    - CLAUDE: Still leaves the most points on the table of any team via optimal lineup, though the gap shrank from 67.7 to 51.7 pts - the remaining fix would be starting Josh Downs over Jalen Coker at WR and sliding Coker into the FLEX spot instead of Dobbins
+    - CLAUDE: 4th-oldest starting lineup in the league (27.8 yrs average) - Nathan's lineup (28.0) now edges him out for 3rd
+    - CLAUDE: The new FLEX starter, J.K. Dobbins, carries a 10.6 games-missed/season career average - the highest injury history of anyone in Theo's current starting 9, and top-25 leaguewide across every rostered player. Worth weighing against the point gain from starting him
+    - CLAUDE: WR bench value dropped to 2nd-highest in the league (563.4, from 583.6) now that Coker is starting - Charles has since passed him for the top bench-WR spot (581.9)
+    - CLAUDE: Already dealt away a 2027 1st (to Jesse) and both a 2027 and 2028 2nd (to Darren), leaving a thin 2027 haul of just two 4ths and a 3rd
+    - CLAUDE: [Correction to a fact from the previous pass] Tank Dell is not actually part of Theo's bench mix - he's on IR/taxi, which this data excludes from "bench." Dropping that reference; it shouldn't have been cited as bench depth risk
+
+
+7. Caleb
+    Pitts and Giggles is in an interesting spot with a season long projection putting them as the 3rd highest scoring team in the league, but in most other categories Caleb's team appears with the rebuilders / future dynasty organizations. He 
+    has the second youngest team behind Darren at 24.4 years on average for starters, and he has a notably weak bench that is projected 3rd least over the season with no QB depth, pretty much no startable RB or TE depth. His starting players 
+    PPG also have the 5th highest average coefficient of variation (0.56), meaning he can't rely on consistent scoring week over week. The starting roster is strong, but injuries / slumps for either of the QBs or RBs could be a season ender. 
+    It is worth mentioning that he still has plenty of his picks for the next 3 years, so if injuries occur deep in the season, there may be trade options available to keep things afloat.
+
+
+8. Chandler
+    With some strong areas and some weak spots, Chandler's team is right in the middle of the league. It would be surprising to see this team finishing in the bottom few slots while being equally surprising to see a championship run.
+    Realistically, the best case scenario is squeaking into the 6 team playoff and getting a few lucky wins in a row against favored teams. Some factors favor a lucky deep run: having Hayden as a rival and effectively getting 2 easy 
+    wins in the regular season could be huge, and the current starting roster has the highest coefficient of variation outside of Purdy Neat at 0.62, mainly driven by QB2 Malik Willis, who we could see getting benched at some point for 
+    a more consistent but probably lower ceiling option in Daniel Jones. A high level of variability in a roster can be seen as a bad thing, but when a roster has virtually no depth at WR after first rounder Travis Hunter has pivoted to 
+    mainly a DB, and is projected to score in the 8th/9th range over a season, then variability becomes an asset necessary for having a surprising weekend against tougher competition. With that being said, Chandler does have some real 
+    bright spots at certain position groups. Josh Allen is a top tier QB1, Chase Brown gets effectively all of the carries for the Bengals, and CeeDee Lamb was just as recently as 2 years ago seen as a possible WR1. If Jaylen Waddle ends up
+    becoming a major target for Bo Nix and Rome Odunze has a solid year, this team could end up working out surprisingly well.
+
+
+9. Nathan
+    - Might have a bit of championship hangover
+    - If Derrick Henry can continue to be healthy, and AJ Brown performs well as the Pats WR1, then this team could still be a contender
+    - Michael Wilson was a good trade
+    - CLAUDE: Now the 3rd-oldest team in the league (28.0 yrs starters) - only Jacob (28.8) and Charles (28.6) are older. This got a notch worse after Theo's recent lineup swap dropped his age below Nathan's
+    - CLAUDE: Starting WR corps carries the 3rd-highest variance in the league (0.63 avg CV), largely driven by Michael Wilson's individual 0.79 CV - the most boom/bust starting WR on the roster
+    - CLAUDE: Leaves the 4th-most points on the table of any team via optimal lineup (25.5 pts) - the suggested fix is starting DK Metcalf over Michael Wilson at WR and George Kittle over Juwan Johnson at TE. Unlike Theo, this swap hasn't been made
+    - CLAUDE: Holds more 2nd-round picks than anyone else in the league (4 total across 2027-2028, after picking up extras from Jacob and Brett) despite having traded away both of his own 1st-rounders - a sell-the-top, hoard-the-middle approach to future capital
+    - CLAUDE: Ricky Pearsall (8.5 games missed/season for his career) is still on the roster but projected for 0.0 points this year - buried behind a deep-enough WR group that he's not really a factor either way
+
+
+====== Meh =======
+
+
+10. Charles
+    - CLAUDE: Rosters three viable QBs - Justin Herbert and Jacoby Brissett start in the superflex league, with Geno Smith (208.7 projected pts) buried on the bench - the deepest QB room in the league
+    - CLAUDE: Lowest bench RB production in the league (79.8 pts) - if Saquon Barkley, Javonte Williams, or Rico Dowdle go down there's almost nothing behind them
+    - CLAUDE: 2nd-oldest starting lineup in the league (28.6 yrs average), just behind Jacob's Cookie Wookies
+    - CLAUDE: Mortgaged his entire 2027 top-3 (1st, 2nd, and 3rd round picks all traded to Darren) in exchange for a full quiver of 2028 picks - this is a team built to buy in 2028, not 2027
+
+
+11. Siegel
+    Goober McGee is in a a middle ground between the rebuilding squads and the rest of the league. The good news is that Justin has by far the deepest set of runningbacks in the league with his recent trade to acquire Josh Jacobs - sitting 
+    at 506.3 projected RB bench points, over doubling the league average of 225.1 and sitting nearly 200 points higher than the second deepest bench at the position. Of course this is because he is unable to start Josh Jacobs, which is where 
+    the bad news begins. With Jacobs in legal trouble and currently starting runningback TreVeyon Henderson having the second highest coefficient of variance of all starting RBs in the league (0.77) and Jadarian Price being a rookie that didn't even start 
+    in college means that his current roster really could go any way at that position. With all the depth at RB along with rostering 4 QBs, there is a tradeoff in depth at the WR and TE positions, with 201.2 bench receiver season projected 
+    points slotting in third to lowest in the league, and not any backup tightends on the roster, I'm not sure where the team is supposed to go. It seems like the bright spot is supposed to be the running back room, but even that isn't going 
+    well, so I can't imagine this team performing consistently throughout the year. A stretch goal would probably be getting a few lucky game wins and finding a spot in the very bottom of the playoffs.
+
+
+===== Future Dynasty / Rebuilders =====
+
+12. Darren 
+    GBGs are in full rebuild, and really have no chance of succeeding this season. Regardless of the high likelihood of poor management driving this team into the ground, the fact is that the current lineup just won't be able
+    to consistently produce strong results. While Darren does have some high-ceiling players like Malik Nabers, Judkins, and Hurts, his team has the second highest coefficient of variability for starting player PPG (0.62 - tied with
+    Chandler), so we can expect a pretty boom or bust roster week to week. This means he may end up getting a few wins this season, especially if Nabers is playing at his pre-injury level, but probably not enough to find himself in the 
+    playoffs. Along with Darren's struggles with low IQ and lack of ball knowledge, his team also struggles with depth, and has the third lowest bench projections in the running back position despite rostering 4 of them. I'd expect GBGs 
+    to take care of Purdy Neat week 1, but the struggles will start soon after.
+
+
+13. Hayden
+    Realistically Hayden's team is a low-floor, low-ceiling team. With a weak running back room consisting pretty much singularly of Omarion Hampton, and the second lowest bench depth (520.4 points / season), it's unlikely any sort
+    of run could be made. His best bet for a good weekend probably involves his Kyler Murray / Justin Jefferson stack going for a couple of touchdowns. One area where Hayden has clear strengths in in young quarterback depth. Drafting 
+    3 of the 4 first round rookie quarterbacks in the last 2 years means that he could eventually have more players to build a team around. Unfortunately, he's missing his first round pick in a season where his team will probably produce 
+    a strong draft pick, so it's going to be a tough road to dynasty relevance.
+
+
+14. Jesse
+    Statistically, Purdy Neat is the worst team in nearly every category. Jesse has holes at QB, with only 1 starting and 0 future points projected for all bench QBs. He is struggling here 
+    after trading away a first + third round pick for 9 just for him to barely make the roster and for Jesse to start Malik Washington in the superflex spot. Jesse also has the weakest tight end room, with the lowest projected
+    points for a starting tight end in Theo Johnson, as well as the second lowest projected points for tight ends sitting on the bench. One thing to watch out for is that he has the third youngest team, with the youngest 
+    bench in the league at 23.9 years old. When combined with his 4 first round picks next year, he will have a good chance at finding a big future player that he can build around. For this year, it's pretty doubtful he'll finish
+    outside of the bottom 3, and he might be an outright favorite against the field to have the first pick in the 2027 rookie draft.

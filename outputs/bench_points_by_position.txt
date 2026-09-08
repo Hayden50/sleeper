@@ -1,0 +1,250 @@
+BENCH PROJECTED POINTS BY POSITION (2026, weeks 1-14)
+Bench = roster players minus starters, taxi squad, and IR.
+
+  TEAM                    TOTAL       QB       RB       WR       TE        K      DEF       DB
+  jlgreen                1209.1      0.0    328.8    541.5    338.8      0.0      0.0      0.0
+  Theowgs10              1009.4      0.0    234.0    563.4    212.0      0.0      0.0      0.0
+  FredJHCJ09              960.7      0.0    228.8    535.2    196.6      0.0      0.0      0.0
+  Jsiegel1120             944.7    236.8    506.7    201.2      0.0      0.0      0.0      0.0
+  CharMcNabb              932.7    208.7     79.8    581.9     62.4      0.0      0.0      0.0
+  mwalter05               845.5      0.0    247.6    463.3    134.6      0.0      0.0      0.0
+  chandlerpittman         820.3    240.5    315.0    115.9    102.1      0.0      0.0     46.8
+  currancmm               809.7      0.0    328.5    292.5     95.8     92.9      0.0      0.0
+  nathanmedley2153        789.8      0.0     85.5    317.8    177.0     96.7    112.7      0.0
+  scottwilliamson2152     783.8      0.0    314.1     95.6    374.1      0.0      0.0      0.0
+  dhunt2001               763.3    248.1     93.8    314.2    107.2      0.0      0.0      0.0
+  cjyarbrough             559.5      0.0    132.8    366.2     60.4      0.0      0.0      0.0
+  HaydenR50               520.4     34.0    140.0    263.4     82.9      0.0      0.0      0.0
+  jessegeorge21           478.5      0.0    120.0    310.1     48.4      0.0      0.0      0.0
+
+LEAGUE AVERAGE BENCH POINTS BY POSITION
+  QB         69.1
+  RB        225.4
+  WR        354.4
+  TE        142.3
+  K          13.5
+  DEF         8.1
+  DB          3.3
+
+PER-TEAM BENCH BREAKDOWN (players behind each position, high to low)
+
+jlgreen (bench total: 1209.1 pts)
+  QB (0.0 pts)
+      Quinn Ewers                  0.0
+  RB (328.8 pts)
+      David Montgomery           184.6
+      Rhamondre Stevenson        144.1
+  WR (541.5 pts)
+      Davante Adams              161.1
+      Alec Pierce                158.2
+      Rashid Shaheed             118.8
+      Cooper Kupp                103.5
+  TE (338.8 pts)
+      Travis Kelce               153.9
+      Isaiah Likely              125.8
+      Cole Kmet                   59.0
+
+Theowgs10 (bench total: 1009.4 pts)
+  RB (234.0 pts)
+      Kenny Gainwell             122.4
+      Blake Corum                111.6
+  WR (563.4 pts)
+      Josh Downs                 159.0
+      Jakobi Meyers              133.9
+      Keenan Allen               114.5
+      Devaughn Vele              113.6
+      Chimere Dike                42.3
+  TE (212.0 pts)
+      T.J. Hockenson             109.7
+      David Njoku                 51.2
+      Elijah Arroyo               51.1
+
+FredJHCJ09 (bench total: 960.7 pts)
+  RB (228.8 pts)
+      RJ Harvey                  133.9
+      Woody Marks                 94.9
+  WR (535.2 pts)
+      Mike Evans                 173.0
+      Wan'Dale Robinson          129.8
+      Pat Bryant                  68.4
+      Jaylin Noel                 67.9
+      Andrei Iosivas              53.5
+      Jalen Tolbert               42.7
+  TE (196.6 pts)
+      Dalton Schultz             125.6
+      Colby Parkinson             71.0
+
+Jsiegel1120 (bench total: 944.7 pts)
+  QB (236.8 pts)
+      Deshaun Watson             185.9
+      Shedeur Sanders             50.9
+      Anthony Richardson           0.0
+  RB (506.7 pts)
+      Josh Jacobs                170.2
+      Jacory Croskey-Merritt     117.3
+      Chris Rodriguez            102.5
+      Tyrone Tracy                68.1
+      Tank Bigsby                 48.6
+  WR (201.2 pts)
+      Stefon Diggs               146.5
+      Keon Coleman                54.7
+
+CharMcNabb (bench total: 932.7 pts)
+  QB (208.7 pts)
+      Geno Smith                 208.7
+  RB (79.8 pts)
+      Ray Davis                   51.2
+      Malik Davis                 28.5
+  WR (581.9 pts)
+      Jordan Addison             146.5
+      Courtland Sutton           138.6
+      Michael Pittman            137.5
+      Jalen Nailor               108.3
+      Isaac TeSlaa                51.0
+      Tyreek Hill                  0.0
+  TE (62.4 pts)
+      Oronde Gadsden              62.4
+
+mwalter05 (bench total: 845.5 pts)
+  RB (247.6 pts)
+      Jordan Mason               119.1
+      Aaron Jones                109.0
+      DJ Giddens                  19.5
+  WR (463.3 pts)
+      Khalil Shakir              144.3
+      Kayshon Boutte             112.6
+      Jalen McMillan              94.8
+      Makai Lemon                 89.8
+      Jalen Royals                21.8
+  TE (134.6 pts)
+      Dalton Kincaid             119.1
+      Ben Sinnott                 15.5
+
+chandlerpittman (bench total: 820.3 pts)
+  QB (240.5 pts)
+      Daniel Jones               240.5
+      Michael Penix                0.0
+  RB (315.0 pts)
+      Chuba Hubbard              131.0
+      Jonathon Brooks            113.1
+      Isaiah Davis                67.4
+      Jacob Saylors                3.6
+  WR (115.9 pts)
+      Jahan Dotson                65.9
+      Xavier Hutchinson           50.0
+  TE (102.1 pts)
+      Darren Waller              102.1
+  DB (46.8 pts)
+      Travis Hunter               46.8
+
+currancmm (bench total: 809.7 pts)
+  RB (328.5 pts)
+      Tony Pollard               132.0
+      Kyle Monangai              104.7
+      Tyler Allgeier              75.4
+      Trevor Etienne              16.4
+  WR (292.5 pts)
+      Xavier Worthy              135.8
+      Jerry Jeudy                 79.5
+      John Metchie                38.7
+      Elic Ayomanor               38.4
+  TE (95.8 pts)
+      Cade Otton                  95.8
+  K (92.9 pts)
+      Harrison Butker             92.9
+
+nathanmedley2153 (bench total: 789.8 pts)
+  RB (85.5 pts)
+      Jonah Coleman               44.8
+      Mike Washington             40.7
+  WR (317.8 pts)
+      Quentin Johnston           142.7
+      Jauan Jennings             105.1
+      Ja'Kobi Lane                42.6
+      Barion Brown                27.4
+  TE (177.0 pts)
+      George Kittle              154.3
+      Matt Hibner                 22.7
+  K (96.7 pts)
+      Jake Bates                  96.7
+  DEF (112.7 pts)
+      HOU                        112.7
+
+scottwilliamson2152 (bench total: 783.8 pts)
+  RB (314.1 pts)
+      Rachaad White              131.5
+      Alvin Kamara                71.8
+      Brian Robinson              63.1
+      Najee Harris                23.8
+      Jordan James                23.8
+  WR (95.6 pts)
+      Jack Bech                   57.7
+      Xavier Legette              37.9
+  TE (374.1 pts)
+      Tucker Kraft               160.0
+      Chig Okonkwo               120.1
+      Pat Freiermuth              93.9
+
+dhunt2001 (bench total: 763.3 pts)
+  QB (248.1 pts)
+      Tua Tagovailoa             248.1
+  RB (93.8 pts)
+      Sean Tucker                 48.4
+      Jaylen Wright               35.7
+      Kaleb Johnson                6.5
+      Roschon Johnson              3.1
+  WR (314.2 pts)
+      KC Concepcion              114.6
+      Dontayvion Wicks            83.1
+      Adonai Mitchell             80.9
+      Troy Franklin               35.6
+  TE (107.2 pts)
+      Brenton Strange            107.2
+
+cjyarbrough (bench total: 559.5 pts)
+  QB (0.0 pts)
+      Justin Fields                0.0
+  RB (132.8 pts)
+      George Holani               41.5
+      Ollie Gordon                33.8
+      Tahj Brooks                 30.1
+      Chris Brooks                27.4
+  WR (366.2 pts)
+      Matthew Golden             130.0
+      Jordyn Tyson                97.1
+      Ryan Flournoy               95.8
+      Tory Horton                 43.4
+  TE (60.4 pts)
+      Noah Gray                   60.4
+
+HaydenR50 (bench total: 520.4 pts)
+  QB (34.0 pts)
+      Kirk Cousins                34.0
+      Jalen Milroe                 0.0
+  RB (140.0 pts)
+      Justice Hill                61.9
+      Braelon Allen               45.7
+      Emanuel Wilson              32.5
+  WR (263.4 pts)
+      Rashod Bateman              94.7
+      Calvin Ridley               86.5
+      Tre' Harris                 76.4
+      Kyle Williams                5.7
+  TE (82.9 pts)
+      Mike Gesicki                82.9
+
+jessegeorge21 (bench total: 478.5 pts)
+  QB (0.0 pts)
+      Mac Jones                    0.0
+      J.J. McCarthy                0.0
+  RB (120.0 pts)
+      Dylan Sampson               85.6
+      LeQuint Allen               34.4
+  WR (310.1 pts)
+      De'Zhaun Stribling          93.5
+      Malachi Fields              88.6
+      Caleb Douglas               70.4
+      Marvin Mims                 57.6
+      Brandon Aiyuk                0.0
+  TE (48.4 pts)
+      Terrance Ferguson           48.4

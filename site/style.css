@@ -1,0 +1,643 @@
+/* ---------------------------------------------------------------------
+   Power Rankings — dark, modern, "scoreboard" sporty theme.
+   Plain CSS, no framework, no build step, zero runtime JS.
+   ------------------------------------------------------------------- */
+
+:root {
+  --bg: #0a0d12;
+  --surface: #12161d;
+  --surface-raised: #171c25;
+  --border: #232a35;
+  --border-soft: #1b212a;
+
+  --text: #e9edf4;
+  --text-dim: #97a2b3;
+  --text-faint: #5c6675;
+
+  --accent: #f5b942;       /* scoreboard amber — used for the headline stat */
+  --accent-soft: #f5b94222;
+
+  --font-display: "Oswald", "Arial Narrow", Arial, sans-serif;
+  --font-body: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+
+  /* Tier accents, top (best) to bottom */
+  --tier-champions: #f2c14e;
+  --tier-champions-soft: #f2c14e1a;
+
+  --tier-deep: #3ddc97;
+  --tier-deep-soft: #3ddc971a;
+
+  --tier-solid: #43b6f0;
+  --tier-solid-soft: #43b6f01a;
+
+  --tier-meh: #8b96a5;
+  --tier-meh-soft: #8b96a51a;
+
+  --tier-rebuild: #b389f0;
+  --tier-rebuild-soft: #b389f01a;
+}
+
+* { box-sizing: border-box; }
+
+html { color-scheme: dark; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+/* ---------------------------------- header ---------------------------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(10, 13, 18, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-header-inner {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.site-title-league {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.site-title-sub {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+.tier-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+}
+
+.nav-link {
+  font-size: 0.78rem;
+  text-decoration: none;
+  color: var(--text-dim);
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.nav-link:hover { color: var(--text); }
+
+.nav-champions   { border-color: transparent; }
+.nav-champions:hover   { border-color: var(--tier-champions); }
+.nav-deep-playoff-runs:hover    { border-color: var(--tier-deep); }
+.nav-solid-playoff-teams:hover  { border-color: var(--tier-solid); }
+.nav-meh:hover                  { border-color: var(--tier-meh); }
+.nav-rebuilders:hover           { border-color: var(--tier-rebuild); }
+
+/* ---------------------------------- layout ----------------------------- */
+
+.rankings {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 24px 80px;
+}
+
+.tier {
+  margin-bottom: 48px;
+  scroll-margin-top: 84px;
+}
+
+.tier-champions        { --tier-accent: var(--tier-champions);  --tier-accent-soft: var(--tier-champions-soft); }
+.tier-deep-playoff-runs{ --tier-accent: var(--tier-deep);       --tier-accent-soft: var(--tier-deep-soft); }
+.tier-solid-playoff-teams{ --tier-accent: var(--tier-solid);    --tier-accent-soft: var(--tier-solid-soft); }
+.tier-meh              { --tier-accent: var(--tier-meh);        --tier-accent-soft: var(--tier-meh-soft); }
+.tier-rebuilders        { --tier-accent: var(--tier-rebuild);   --tier-accent-soft: var(--tier-rebuild-soft); }
+
+.tier-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.tier-name {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--tier-accent);
+  white-space: nowrap;
+}
+
+.tier-rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--tier-accent), transparent 70%);
+  opacity: 0.6;
+}
+
+.tier-teams {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* ---------------------------------- team card --------------------------- */
+
+.team-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--tier-accent);
+  border-radius: 3px;
+  padding: 18px 20px 20px;
+  scroll-margin-top: 84px;
+}
+
+.team-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.rank-badge {
+  flex: none;
+  width: 38px;
+  height: 38px;
+  border-radius: 3px;
+  background: var(--tier-accent);
+  color: #0a0d12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.avatar {
+  flex: none;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+}
+
+.avatar-lg { width: 44px; height: 44px; }
+.avatar-sm { width: 20px; height: 20px; }
+
+.avatar-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+.team-identity {
+  min-width: 0;
+  margin-right: auto;
+}
+
+.team-nickname {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.team-manager {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+.team-stats {
+  display: grid;
+  grid-template-columns: 70px 132px;
+  gap: 20px;
+}
+
+.stat {
+  text-align: right;
+  min-width: 0;
+}
+
+.stat-value {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+.stat-matchup-value {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: flex-end;
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.9rem;
+  min-width: 0;
+}
+
+.stat-matchup-value span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.bye-label {
+  color: var(--text-faint);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.78rem;
+}
+
+/* ---------------------------------- team body --------------------------- */
+
+.team-card-body {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-soft);
+}
+
+.team-prose {
+  margin: 0 0 10px;
+  color: var(--text-dim);
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+
+.team-prose:last-child { margin-bottom: 0; }
+
+.team-prose-empty {
+  font-style: italic;
+  color: var(--text-faint);
+}
+
+.team-bullets {
+  margin: 0 0 10px;
+  padding-left: 1.1em;
+  color: var(--text-dim);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.team-bullets li { margin-bottom: 4px; }
+.team-bullets li::marker { color: var(--tier-accent); }
+
+.glossary-link {
+  color: var(--accent);
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.glossary-link:hover { color: var(--text); }
+
+.ai-note {
+  margin-top: 12px;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+
+.ai-note-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-faint);
+  margin-bottom: 8px;
+}
+
+.ai-note-label::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.ai-note-list {
+  margin: 0;
+  padding-left: 1.1em;
+  color: var(--text-dim);
+  font-size: 0.86rem;
+  line-height: 1.6;
+}
+
+.ai-note-list li { margin-bottom: 5px; }
+.ai-note-list li:last-child { margin-bottom: 0; }
+.ai-note-list li::marker { color: var(--text-faint); }
+
+/* ---------------------------------- footer ------------------------------ */
+
+.site-footer {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 24px 48px;
+  color: var(--text-faint);
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+/* ---------------------------------- responsive --------------------------- */
+
+@media (max-width: 640px) {
+  /* Row 1: rank + avatar + name, together, same as desktop.
+     Row 2: the stats get their own full-width row instead of squeezing
+     in next to the avatar - there isn't room for a fixed-width stat
+     block there once the rank badge and avatar are accounted for. */
+  .team-card-header {
+    align-items: center;
+  }
+  .team-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-basis: 100%;
+    order: 3;
+    margin-left: 0;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-soft);
+  }
+
+  /* The sticky header wraps to a title row + a nav row on narrow screens,
+     so it's taller here than on desktop - anchor jumps need more headroom
+     to clear it, or the header covers the tier name/team card underneath. */
+  .tier {
+    scroll-margin-top: 190px;
+  }
+  .team-card {
+    scroll-margin-top: 190px;
+  }
+}
+
+/* ============================================================
+   Stat / methodology pages (site/stats/*.html)
+   ============================================================ */
+
+.back-link {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  text-decoration: none;
+}
+
+.back-link:hover { color: var(--text); }
+
+.stat-page {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 40px 24px 96px;
+}
+
+.stat-page-title {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin: 4px 0 4px;
+}
+
+.stat-page-kicker {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.stat-methodology {
+  margin-top: 20px;
+  color: var(--text-dim);
+  font-size: 0.96rem;
+  line-height: 1.7;
+  max-width: 65ch;
+}
+
+.stat-methodology p { margin: 0 0 14px; }
+.stat-methodology code {
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.88em;
+  color: var(--text);
+}
+
+.stat-example {
+  margin: 20px 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 3px;
+  padding: 14px 16px;
+  font-size: 0.88rem;
+  color: var(--text-dim);
+}
+
+.stat-example strong { color: var(--text); }
+
+.stat-section-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text);
+  margin: 40px 0 6px;
+}
+
+.stat-section-note {
+  font-size: 0.82rem;
+  color: var(--text-faint);
+  margin: 0 0 16px;
+}
+
+.stat-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+table.stat-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  min-width: 620px;
+}
+
+.stat-table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--surface-raised);
+  text-align: right;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-dim);
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.stat-table thead th:first-child { text-align: left; }
+
+.stat-table thead th[data-sort] {
+  cursor: pointer;
+  user-select: none;
+}
+
+.stat-table thead th[data-sort]:hover { color: var(--text); }
+
+.stat-table thead th[data-sort]::after {
+  content: "";
+  display: inline-block;
+  width: 0.6em;
+}
+
+.stat-table thead th[data-dir="asc"]::after { content: " \25B2"; }
+.stat-table thead th[data-dir="desc"]::after { content: " \25BC"; }
+
+.stat-table tbody td {
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--border-soft);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.stat-table tbody td:first-child {
+  text-align: left;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.stat-table tbody tr:last-child td { border-bottom: none; }
+.stat-table tbody tr:hover td { background: var(--surface-raised); }
+
+.stat-table tbody td a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.stat-table tbody td a:hover { color: var(--accent); }
+
+.table-team-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stat-table td.stat-highlight { color: var(--accent); font-weight: 600; }
+
+.team-detail {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: var(--surface);
+}
+
+.team-detail summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.team-detail summary::-webkit-details-marker { display: none; }
+
+.team-detail summary::before {
+  content: "\25B8";
+  color: var(--text-faint);
+  font-size: 0.75em;
+  transition: transform 0.15s ease;
+}
+
+.team-detail[open] summary::before { transform: rotate(90deg); }
+
+.team-detail summary .avg-cv {
+  margin-left: auto;
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+}
+
+.team-detail-body {
+  padding: 0 16px 14px;
+  border-top: 1px solid var(--border-soft);
+}
+
+.position-group {
+  margin-top: 12px;
+}
+
+.position-group-title {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-faint);
+  margin-bottom: 4px;
+}
+
+.player-row {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto auto;
+  gap: 14px;
+  padding: 4px 0;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.player-row .player-name { color: var(--text); }
+.player-row span { font-variant-numeric: tabular-nums; text-align: right; }
+.player-row .no-data { grid-column: 2 / -1; text-align: right; color: var(--text-faint); font-style: italic; }
