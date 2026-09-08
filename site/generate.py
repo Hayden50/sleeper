@@ -223,9 +223,14 @@ def esc(text: str) -> str:
 
 # Phrases in the write-ups that get auto-linked to a methodology + data page.
 # Keyed by the exact phrase (case-insensitive match, original casing kept),
-# value is the href relative to site/index.html.
+# value is the href relative to site/index.html. Includes the couple of
+# non-standard variants ("variance"/"variability" instead of "variation")
+# that have shown up in write-ups, so a wording slip doesn't silently drop
+# the link.
 GLOSSARY_LINKS = {
     "coefficient of variation": "stats/variance.html",
+    "coefficient of variance": "stats/variance.html",
+    "coefficient of variability": "stats/variance.html",
 }
 _GLOSSARY_RE = re.compile(
     "|".join(re.escape(p) for p in GLOSSARY_LINKS), re.IGNORECASE
