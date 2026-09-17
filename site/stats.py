@@ -94,7 +94,7 @@ def parse_variance_file(path: Path) -> dict:
     return {"summary": summary, "league_avg": league_avg, "detail": detail}
 
 
-def render_summary_table(summary: list[dict], team_lookup: dict) -> str:
+def render_summary_table(summary: list[dict], team_lookup: dict, back_href: str) -> str:
     header_cells = "".join(
         f'<th data-sort="{esc(p)}">{esc(p)}</th>' for p in ["Avg CV", *POSITIONS]
     )
@@ -106,7 +106,7 @@ def render_summary_table(summary: list[dict], team_lookup: dict) -> str:
         avatar = render_avatar(team_lookup.get(username, {}).get("avatar_url"), nickname, "avatar-sm")
         team_cell = (
             f'<td data-value="{esc(nickname)}">'
-            f'<a href="../index.html#team-{esc(first_name.lower())}" class="table-team-link">'
+            f'<a href="{esc(back_href)}#team-{esc(first_name.lower())}" class="table-team-link">'
             f'{avatar}<span>{esc(nickname)}</span></a></td>'
         )
         value_cells = f'<td data-value="{esc(row["avg_cv"])}" class="stat-highlight">{esc(row["avg_cv"])}</td>'
@@ -164,8 +164,8 @@ def render_detail(detail: dict, team_lookup: dict) -> str:
     return "\n".join(blocks)
 
 
-def render_page(data: dict, team_lookup: dict) -> str:
-    summary_table = render_summary_table(data["summary"], team_lookup)
+def render_page(data: dict, team_lookup: dict, back_href: str) -> str:
+    summary_table = render_summary_table(data["summary"], team_lookup, back_href)
     detail_html = render_detail(data["detail"], team_lookup)
 
     return """<!doctype html>
@@ -182,7 +182,7 @@ def render_page(data: dict, team_lookup: dict) -> str:
 <body>
   <header class="site-header">
     <div class="site-header-inner">
-      <a class="back-link" href="../index.html">&larr; Power Rankings</a>
+      <a class="back-link" href=\"""" + back_href + """\">&larr; Power Rankings</a>
     </div>
   </header>
 
@@ -257,10 +257,10 @@ def render_page(data: dict, team_lookup: dict) -> str:
 """
 
 
-def build(team_lookup: dict) -> None:
+def build(team_lookup: dict, back_href: str = "../index.html") -> None:
     data = parse_variance_file(VARIANCE_PATH)
     out_dir = SITE_DIR / "stats"
     out_dir.mkdir(exist_ok=True)
     out_path = out_dir / "variance.html"
-    out_path.write_text(render_page(data, team_lookup))
+    out_path.write_text(render_page(data, team_lookup, back_href))
     print(f"Wrote {out_path}")

@@ -57,7 +57,7 @@ jobs:
         # publish the actual HTML/CSS, not generate.py etc.
         run: |
           mkdir -p _site/stats
-          cp site/index.html site/style.css _site/
+          cp site/index.html site/week-*.html site/style.css _site/
           cp site/stats/variance.html _site/stats/
 
       - name: Configure Pages
