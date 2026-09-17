@@ -293,8 +293,7 @@ a { color: inherit; }
 
 .team-stats {
   display: grid;
-  grid-template-columns: 70px 132px;
-  gap: 20px;
+  grid-template-columns: 150px;
 }
 
 .stat {
@@ -528,7 +527,7 @@ a { color: inherit; }
   }
   .team-stats {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-end;
     flex-basis: 100%;
     order: 3;

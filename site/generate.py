@@ -4,7 +4,6 @@ landing page (site/index.html) linking between them.
 
 Pulls together, per week:
 - reports/week_N_reports.txt    (tiers, rank, write-up prose / bullets)
-- outputs/ranking_table.txt     (season-long projected starting-lineup points)
 - Sleeper API (live)            (avatar, team nickname, that week's opponent)
 
 Rank movement on a week's page is computed against the previous week's
@@ -31,7 +30,6 @@ import yaml
 
 from collectors.sleeper import SleeperClient
 
-RANKING_TABLE_PATH = ROOT / "outputs" / "ranking_table.txt"
 SITE_DIR = ROOT / "site"
 
 # Each week's report, its output page, and which live matchup week to show
@@ -93,17 +91,6 @@ TIER_SLUGS = {
 def load_config() -> dict:
     with open(ROOT / "config" / "league.yaml") as f:
         return yaml.safe_load(f)
-
-
-def load_projected_points() -> dict[str, float]:
-    """username -> projected starting-lineup points, from ranking_table.txt."""
-    points = {}
-    row_re = re.compile(r"^\s*\d+\s+(\S+)\s+([\d.]+)\s")
-    for line in RANKING_TABLE_PATH.read_text().splitlines():
-        m = row_re.match(line)
-        if m:
-            points[m.group(1)] = float(m.group(2))
-    return points
 
 
 def parse_report(path: Path) -> list[dict]:
@@ -421,7 +408,6 @@ def render_team_card(
     team: dict,
     tier_slug: str,
     team_lookup: dict,
-    points: dict,
     opponents: dict,
     roster_html_by_username: dict,
     matchup_label: str,
@@ -431,7 +417,6 @@ def render_team_card(
     info = team_lookup.get(username, {})
     nickname = info.get("nickname", team["first_name"])
     avatar_url = info.get("avatar_url")
-    proj = points.get(username)
     opp_username = opponents.get(username)
 
     if opp_username:
@@ -459,7 +444,6 @@ def render_team_card(
     body_html = "\n".join(body_parts) if body_parts else '<p class="team-prose team-prose-empty">No write-up yet.</p>'
 
     avatar_html = render_avatar(avatar_url, nickname, "avatar-lg")
-    proj_html = f"{proj:.1f}" if proj is not None else "—"
     roster_html = roster_html_by_username.get(username, "")
 
     prev_rank = (prev_ranks or {}).get(team["first_name"])
@@ -479,10 +463,6 @@ def render_team_card(
             <div class="team-manager">{esc(team["first_name"])}</div>
           </div>
           <div class="team-stats">
-            <div class="stat">
-              <div class="stat-value">{proj_html}</div>
-              <div class="stat-label">proj. pts</div>
-            </div>
             <div class="stat stat-matchup">
               <div class="stat-value stat-matchup-value">{matchup_html}</div>
               <div class="stat-label">{esc(matchup_label)}</div>
@@ -497,12 +477,12 @@ def render_team_card(
 
 
 def render_tier_section(
-    tier: dict, team_lookup: dict, points: dict, opponents: dict, roster_html_by_username: dict,
+    tier: dict, team_lookup: dict, opponents: dict, roster_html_by_username: dict,
     matchup_label: str, prev_ranks: dict[str, int] | None,
 ) -> str:
     slug = TIER_SLUGS.get(tier["name"], re.sub(r"[^a-z0-9]+", "-", tier["name"].lower()).strip("-"))
     cards = "\n".join(
-        render_team_card(t, slug, team_lookup, points, opponents, roster_html_by_username, matchup_label, prev_ranks)
+        render_team_card(t, slug, team_lookup, opponents, roster_html_by_username, matchup_label, prev_ranks)
         for t in tier["teams"]
     )
     return f"""
@@ -526,12 +506,12 @@ def render_week_switcher(current_output: str) -> str:
 
 
 def render_page(
-    tiers: list[dict], team_lookup: dict, points: dict, opponents: dict, roster_html_by_username: dict,
+    tiers: list[dict], team_lookup: dict, opponents: dict, roster_html_by_username: dict,
     league_name: str, period_label: str, season: str, matchup_label: str, prev_ranks: dict[str, int] | None,
     current_output: str, top_brief_html: str = "", bottom_brief_html: str = "",
 ) -> str:
     sections = "\n".join(
-        render_tier_section(t, team_lookup, points, opponents, roster_html_by_username, matchup_label, prev_ranks)
+        render_tier_section(t, team_lookup, opponents, roster_html_by_username, matchup_label, prev_ranks)
         for t in tiers
     )
     nav_links = "\n".join(
@@ -635,7 +615,6 @@ def main():
     state = client.get_nfl_state()
 
     team_lookup = build_team_lookup(users, rosters, config)
-    points = load_projected_points()
 
     import roster  # deferred: roster.py imports back from this module
 
@@ -667,7 +646,7 @@ def main():
             bottom_brief_html = render_injury_brief_section(injury_by_username, team_lookup, ranked_first_names)
 
         html_out = render_page(
-            tiers, team_lookup, points, opponents, roster_html_by_username,
+            tiers, team_lookup, opponents, roster_html_by_username,
             league_name=league_name,
             period_label=cfg["period_label"],
             season=season,
