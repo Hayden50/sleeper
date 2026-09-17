@@ -37,6 +37,9 @@ SITE_DIR = ROOT / "site"
 # Each week's report, its output page, and which live matchup week to show
 # as "this week's opponent" on that page (the matchup immediately following
 # the write-up - e.g. the preseason report previews Week 1's matchups).
+# results_week, when set, is the most recently completed week - its final
+# scores and current injury designations are shown in a brief at the top of
+# the page. The preseason report has no completed week yet, so it's None.
 REPORTS = [
     {
         "path": ROOT / "reports" / "week_0_reports.txt",
@@ -45,6 +48,7 @@ REPORTS = [
         "period_label": "Preseason",
         "matchup_week": 1,
         "matchup_label": "week 1",
+        "results_week": None,
     },
     {
         "path": ROOT / "reports" / "week_1_reports.txt",
@@ -53,6 +57,7 @@ REPORTS = [
         "period_label": "Week 1",
         "matchup_week": 2,
         "matchup_label": "week 2",
+        "results_week": 1,
     },
 ]
 
@@ -287,6 +292,131 @@ def render_movement(delta: int | None) -> str:
     return '<div class="rank-movement rank-movement-same" title="Unchanged from last week">&ndash;</div>'
 
 
+# Game-status designations worth surfacing in the quick brief - IR/PUP/NA/DNR
+# are season-long roster situations, not this-week news, so they're left out
+# here (the full breakdown is still in outputs/injury_report.txt).
+INJURY_BRIEF_STATUSES = ["Out", "Doubtful", "Questionable"]
+INJURY_CHIP_CLASS = {
+    "Out": "injury-chip-out",
+    "Doubtful": "injury-chip-doubtful",
+    "Questionable": "injury-chip-questionable",
+}
+
+
+def build_injury_brief(rosters: list[dict], team_lookup: dict, players: dict) -> dict[str, list[dict]]:
+    """username -> [{name, position, status, body_part}, ...] for rostered
+    players (starters + bench) currently tagged Out/Doubtful/Questionable."""
+    username_by_roster_id = {v["roster_id"]: k for k, v in team_lookup.items()}
+    result: dict[str, list[dict]] = {}
+
+    for r in rosters:
+        username = username_by_roster_id.get(r["roster_id"])
+        if username is None:
+            continue
+        entries = []
+        for pid in r.get("players") or []:
+            p = players.get(pid) or {}
+            status = p.get("injury_status")
+            if status not in INJURY_BRIEF_STATUSES:
+                continue
+            entries.append({
+                "name": p.get("full_name") or pid,
+                "position": p.get("position") or "?",
+                "status": status,
+                "body_part": p.get("injury_body_part") or "",
+            })
+        if entries:
+            entries.sort(key=lambda e: (INJURY_BRIEF_STATUSES.index(e["status"]), e["name"]))
+            result[username] = entries
+
+    return result
+
+
+def render_injury_brief(injury_by_username: dict[str, list[dict]], team_lookup: dict, ranked_first_names: list[str]) -> str:
+    blocks = []
+    for first_name in ranked_first_names:
+        username = FIRST_NAME_TO_USERNAME.get(first_name)
+        entries = injury_by_username.get(username)
+        if not entries:
+            continue
+        nickname = team_lookup.get(username, {}).get("nickname", first_name)
+        chips = "".join(
+            f'<div class="injury-chip {INJURY_CHIP_CLASS.get(e["status"], "")}">'
+            f'<span class="injury-chip-status">{esc(e["status"])}</span>'
+            f'<span class="injury-chip-name">{esc(e["name"])}</span>'
+            f'<span class="injury-chip-meta">{esc(e["position"])}'
+            + (f' · {esc(e["body_part"])}' if e["body_part"] else '')
+            + '</span></div>'
+            for e in entries
+        )
+        blocks.append(
+            f'<div class="injury-brief-team">'
+            f'<div class="injury-brief-team-name">{esc(nickname)}</div>'
+            f'<div class="injury-brief-chips">{chips}</div>'
+            f'</div>'
+        )
+    if not blocks:
+        return '<p class="week-brief-empty">No Out/Doubtful/Questionable designations.</p>'
+    return "".join(blocks)
+
+
+def render_score_side(info: dict, pts: float, is_winner: bool) -> str:
+    nickname = info.get("nickname", "—")
+    avatar_html = render_avatar(info.get("avatar_url"), nickname, "avatar-sm")
+    cls = "score-side score-side-win" if is_winner else "score-side"
+    return (
+        f'<div class="{cls}">{avatar_html}'
+        f'<span class="score-side-name">{esc(nickname)}</span>'
+        f'<span class="score-side-pts">{pts:.2f}</span></div>'
+    )
+
+
+def render_score_brief(matchups: list[dict], team_lookup: dict) -> str:
+    roster_id_to_username = {v["roster_id"]: k for k, v in team_lookup.items()}
+
+    by_matchup: dict[int, list[dict]] = {}
+    for m in matchups:
+        by_matchup.setdefault(m["matchup_id"], []).append(m)
+
+    games = [entries for entries in by_matchup.values() if len(entries) == 2]
+    games.sort(key=lambda g: max(g[0].get("points") or 0, g[1].get("points") or 0), reverse=True)
+
+    rows = []
+    for a, b in games:
+        a_info = team_lookup.get(roster_id_to_username.get(a["roster_id"]), {})
+        b_info = team_lookup.get(roster_id_to_username.get(b["roster_id"]), {})
+        a_pts = a.get("points") or 0
+        b_pts = b.get("points") or 0
+        a_win = a_pts >= b_pts
+        rows.append(
+            '<div class="score-game">'
+            f'{render_score_side(a_info, a_pts, a_win)}'
+            f'{render_score_side(b_info, b_pts, not a_win)}'
+            '</div>'
+        )
+    if not rows:
+        return '<p class="week-brief-empty">No completed games yet.</p>'
+    return "".join(rows)
+
+
+def render_score_brief_section(week_num: int, matchups: list[dict], team_lookup: dict) -> str:
+    score_html = render_score_brief(matchups, team_lookup)
+    return f"""
+    <section class="brief-section">
+      <h2 class="brief-title">Week {week_num} Scores</h2>
+      <div class="score-grid">{score_html}</div>
+    </section>"""
+
+
+def render_injury_brief_section(injury_by_username: dict, team_lookup: dict, ranked_first_names: list[str]) -> str:
+    injury_html = render_injury_brief(injury_by_username, team_lookup, ranked_first_names)
+    return f"""
+    <section class="brief-section">
+      <h2 class="brief-title">Injury Report</h2>
+      <div class="injury-brief-grid">{injury_html}</div>
+    </section>"""
+
+
 def render_team_card(
     team: dict,
     tier_slug: str,
@@ -398,7 +528,7 @@ def render_week_switcher(current_output: str) -> str:
 def render_page(
     tiers: list[dict], team_lookup: dict, points: dict, opponents: dict, roster_html_by_username: dict,
     league_name: str, period_label: str, season: str, matchup_label: str, prev_ranks: dict[str, int] | None,
-    current_output: str,
+    current_output: str, top_brief_html: str = "", bottom_brief_html: str = "",
 ) -> str:
     sections = "\n".join(
         render_tier_section(t, team_lookup, points, opponents, roster_html_by_username, matchup_label, prev_ranks)
@@ -434,7 +564,9 @@ def render_page(
   </header>
 
   <main class="rankings">
+    {top_brief_html}
     {sections}
+    {bottom_brief_html}
   </main>
 
   <footer class="site-footer">
@@ -445,24 +577,18 @@ def render_page(
 """
 
 
-def render_index_page(league_name: str, season: str, week_summaries: list[dict]) -> str:
-    cards = []
-    for w in week_summaries:
-        top = w["top_team"]
-        top_avatar = render_avatar(top["avatar_url"], top["nickname"], "avatar-lg")
-        cards.append(f"""
-      <a class="week-card" href="{esc(w["output"])}">
-        <div class="week-card-label">{esc(w["nav_label"])}</div>
-        <div class="week-card-period">{esc(w["period_label"])}</div>
-        <div class="week-card-top">
-          {top_avatar}
-          <div class="week-card-top-text">
-            <div class="week-card-top-kicker">#1 · {esc(top["first_name"])}</div>
-            <div class="week-card-top-name">{esc(top["nickname"])}</div>
-          </div>
-        </div>
-        <div class="week-card-cta">View rankings &rarr;</div>
-      </a>""")
+def render_index_page(league_name: str, season: str, reports: list[dict]) -> str:
+    # Newest week first.
+    rows = []
+    for cfg in reversed(reports):
+        rows.append(f"""
+      <li class="week-row">
+        <a class="week-row-link" href="{esc(cfg["output"])}">
+          <span class="week-row-label">{esc(cfg["nav_label"])}</span>
+          <span class="week-row-period">{esc(cfg["period_label"])}</span>
+          <span class="week-row-arrow">&rarr;</span>
+        </a>
+      </li>""")
 
     return f"""<!doctype html>
 <html lang="en">
@@ -486,11 +612,9 @@ def render_index_page(league_name: str, season: str, week_summaries: list[dict])
   </header>
 
   <main class="landing">
-    <p class="landing-intro">Weekly power rankings, written up by the league and backed by projections pulled live from Sleeper. Pick a week to jump in.</p>
-    <div class="week-card-grid">
-      {"".join(cards)}
-    </div>
-    <a class="landing-stats-link" href="stats/variance.html">Stats &amp; methodology &rarr;</a>
+    <ul class="week-list">
+      {"".join(rows)}
+    </ul>
   </main>
 
   <footer class="site-footer">
@@ -526,12 +650,21 @@ def main():
     season = state["season"]
 
     prev_ranks: dict[str, int] | None = None
-    week_summaries = []
 
     for cfg in REPORTS:
         matchups = client.get_matchups(cfg["matchup_week"])
         opponents = build_opponent_map(matchups, team_lookup)
         tiers = parse_report(cfg["path"])
+
+        top_brief_html = ""
+        bottom_brief_html = ""
+        if cfg["results_week"]:
+            results_matchups = client.get_matchups(cfg["results_week"])
+            top_brief_html = render_score_brief_section(cfg["results_week"], results_matchups, team_lookup)
+
+            injury_by_username = build_injury_brief(rosters, team_lookup, players)
+            ranked_first_names = [t["first_name"] for tier in tiers for t in tier["teams"]]
+            bottom_brief_html = render_injury_brief_section(injury_by_username, team_lookup, ranked_first_names)
 
         html_out = render_page(
             tiers, team_lookup, points, opponents, roster_html_by_username,
@@ -541,28 +674,16 @@ def main():
             matchup_label=cfg["matchup_label"],
             prev_ranks=prev_ranks,
             current_output=cfg["output"],
+            top_brief_html=top_brief_html,
+            bottom_brief_html=bottom_brief_html,
         )
         out_path = SITE_DIR / cfg["output"]
         out_path.write_text(html_out)
         print(f"Wrote {out_path}")
 
-        top_team = tiers[0]["teams"][0]
-        top_username = FIRST_NAME_TO_USERNAME[top_team["first_name"]]
-        top_info = team_lookup.get(top_username, {})
-        week_summaries.append({
-            "output": cfg["output"],
-            "nav_label": cfg["nav_label"],
-            "period_label": cfg["period_label"],
-            "top_team": {
-                "first_name": top_team["first_name"],
-                "nickname": top_info.get("nickname", top_team["first_name"]),
-                "avatar_url": top_info.get("avatar_url"),
-            },
-        })
-
         prev_ranks = ranks_by_first_name(tiers)
 
-    index_html = render_index_page(league_name, season, week_summaries)
+    index_html = render_index_page(league_name, season, REPORTS)
     index_path = SITE_DIR / "index.html"
     index_path.write_text(index_html)
     print(f"Wrote {index_path}")
