@@ -277,13 +277,29 @@ a { color: inherit; }
 }
 
 .team-nickname {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  min-width: 0;
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 1.25rem;
   letter-spacing: 0.01em;
+}
+
+.team-nickname-text {
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.team-record {
+  flex-shrink: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
 }
 
 .team-manager {

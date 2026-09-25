@@ -3,7 +3,7 @@ Builds the power-rankings site: one page per week (site/week-N.html) plus a
 landing page (site/index.html) linking between them.
 
 Pulls together, per week:
-- reports/week_N_reports.txt    (tiers, rank, write-up prose / bullets)
+- reports/week_N_report.txt     (tiers, rank, write-up prose / bullets)
 - Sleeper API (live)            (avatar, team nickname, that week's opponent)
 
 Rank movement on a week's page is computed against the previous week's
@@ -40,7 +40,7 @@ SITE_DIR = ROOT / "site"
 # the page. The preseason report has no completed week yet, so it's None.
 REPORTS = [
     {
-        "path": ROOT / "reports" / "week_0_reports.txt",
+        "path": ROOT / "reports" / "week_0_report.txt",
         "output": "week-0.html",
         "nav_label": "Week 0",
         "period_label": "Preseason",
@@ -49,13 +49,22 @@ REPORTS = [
         "results_week": None,
     },
     {
-        "path": ROOT / "reports" / "week_1_reports.txt",
+        "path": ROOT / "reports" / "week_1_report.txt",
         "output": "week-1.html",
         "nav_label": "Week 1",
         "period_label": "Week 1",
         "matchup_week": 2,
         "matchup_label": "week 2",
         "results_week": 1,
+    },
+    {
+        "path": ROOT / "reports" / "week_2_report.txt",
+        "output": "week-2.html",
+        "nav_label": "Week 2",
+        "period_label": "Week 2",
+        "matchup_week": 3,
+        "matchup_label": "week 3",
+        "results_week": 2,
     },
 ]
 
@@ -227,6 +236,35 @@ def build_opponent_map(matchups: list[dict], team_lookup: dict) -> dict[str, str
         opp_roster_id = opponent_of_roster.get(info["roster_id"])
         result[username] = roster_id_to_username.get(opp_roster_id) if opp_roster_id else None
     return result
+
+
+def compute_records(matchups_by_week: dict[int, list[dict]], through_week: int, team_lookup: dict) -> dict[str, str]:
+    """username -> "W-L" (or "W-L-T" once a tie has happened) from the
+    head-to-head results of weeks 1..through_week, so each week's page shows
+    the records as they stood when that report was written."""
+    roster_id_to_username = {v["roster_id"]: k for k, v in team_lookup.items()}
+    tallies = {username: [0, 0, 0] for username in team_lookup}
+
+    for week in range(1, through_week + 1):
+        by_matchup: dict[int, list[dict]] = {}
+        for m in matchups_by_week[week]:
+            by_matchup.setdefault(m["matchup_id"], []).append(m)
+        for pair in by_matchup.values():
+            if len(pair) != 2:
+                continue
+            a, b = pair
+            a_pts, b_pts = a.get("points") or 0, b.get("points") or 0
+            for side, pts, opp_pts in ((a, a_pts, b_pts), (b, b_pts, a_pts)):
+                username = roster_id_to_username.get(side["roster_id"])
+                if username is None:
+                    continue
+                idx = 0 if pts > opp_pts else 1 if pts < opp_pts else 2
+                tallies[username][idx] += 1
+
+    return {
+        username: f"{w}-{l}-{t}" if t else f"{w}-{l}"
+        for username, (w, l, t) in tallies.items()
+    }
 
 
 def esc(text: str) -> str:
@@ -412,6 +450,7 @@ def render_team_card(
     roster_html_by_username: dict,
     matchup_label: str,
     prev_ranks: dict[str, int] | None,
+    records: dict[str, str] | None,
 ) -> str:
     username = FIRST_NAME_TO_USERNAME[team["first_name"]]
     info = team_lookup.get(username, {})
@@ -450,6 +489,9 @@ def render_team_card(
     delta = (prev_rank - team["rank"]) if prev_rank is not None else None
     movement_html = render_movement(delta)
 
+    record = (records or {}).get(username)
+    record_html = f'<span class="team-record">{esc(record)}</span>' if record else ""
+
     return f"""
       <article class="team-card tier-{tier_slug}" id="team-{esc(team["first_name"].lower())}">
         <div class="team-card-header">
@@ -459,7 +501,7 @@ def render_team_card(
           </div>
           {avatar_html}
           <div class="team-identity">
-            <div class="team-nickname">{esc(nickname)}</div>
+            <div class="team-nickname"><span class="team-nickname-text">{esc(nickname)}</span>{record_html}</div>
             <div class="team-manager">{esc(team["first_name"])}</div>
           </div>
           <div class="team-stats">
@@ -478,11 +520,11 @@ def render_team_card(
 
 def render_tier_section(
     tier: dict, team_lookup: dict, opponents: dict, roster_html_by_username: dict,
-    matchup_label: str, prev_ranks: dict[str, int] | None,
+    matchup_label: str, prev_ranks: dict[str, int] | None, records: dict[str, str] | None,
 ) -> str:
     slug = TIER_SLUGS.get(tier["name"], re.sub(r"[^a-z0-9]+", "-", tier["name"].lower()).strip("-"))
     cards = "\n".join(
-        render_team_card(t, slug, team_lookup, opponents, roster_html_by_username, matchup_label, prev_ranks)
+        render_team_card(t, slug, team_lookup, opponents, roster_html_by_username, matchup_label, prev_ranks, records)
         for t in tier["teams"]
     )
     return f"""
@@ -508,10 +550,11 @@ def render_week_switcher(current_output: str) -> str:
 def render_page(
     tiers: list[dict], team_lookup: dict, opponents: dict, roster_html_by_username: dict,
     league_name: str, period_label: str, season: str, matchup_label: str, prev_ranks: dict[str, int] | None,
-    current_output: str, top_brief_html: str = "", bottom_brief_html: str = "",
+    current_output: str, records: dict[str, str] | None = None,
+    top_brief_html: str = "", bottom_brief_html: str = "",
 ) -> str:
     sections = "\n".join(
-        render_tier_section(t, team_lookup, opponents, roster_html_by_username, matchup_label, prev_ranks)
+        render_tier_section(t, team_lookup, opponents, roster_html_by_username, matchup_label, prev_ranks, records)
         for t in tiers
     )
     nav_links = "\n".join(
@@ -629,16 +672,26 @@ def main():
     season = state["season"]
 
     prev_ranks: dict[str, int] | None = None
+    matchups_by_week: dict[int, list[dict]] = {}
+
+    def matchups_for(week: int) -> list[dict]:
+        if week not in matchups_by_week:
+            matchups_by_week[week] = client.get_matchups(week)
+        return matchups_by_week[week]
 
     for cfg in REPORTS:
-        matchups = client.get_matchups(cfg["matchup_week"])
+        matchups = matchups_for(cfg["matchup_week"])
         opponents = build_opponent_map(matchups, team_lookup)
         tiers = parse_report(cfg["path"])
 
         top_brief_html = ""
         bottom_brief_html = ""
+        records = None
         if cfg["results_week"]:
-            results_matchups = client.get_matchups(cfg["results_week"])
+            for week in range(1, cfg["results_week"] + 1):
+                matchups_for(week)
+            records = compute_records(matchups_by_week, cfg["results_week"], team_lookup)
+            results_matchups = matchups_for(cfg["results_week"])
             top_brief_html = render_score_brief_section(cfg["results_week"], results_matchups, team_lookup)
 
             injury_by_username = build_injury_brief(rosters, team_lookup, players)
@@ -653,6 +706,7 @@ def main():
             matchup_label=cfg["matchup_label"],
             prev_ranks=prev_ranks,
             current_output=cfg["output"],
+            records=records,
             top_brief_html=top_brief_html,
             bottom_brief_html=bottom_brief_html,
         )
