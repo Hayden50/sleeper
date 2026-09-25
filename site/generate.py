@@ -3,7 +3,7 @@ Builds the power-rankings site: one page per week (site/week-N.html) plus a
 landing page (site/index.html) linking between them.
 
 Pulls together, per week:
-- reports/week_N_report.txt     (tiers, rank, write-up prose / bullets)
+- reports/week_N_report(s).txt   (tiers, rank, write-up prose / bullets)
 - Sleeper API (live)            (avatar, team nickname, that week's opponent)
 
 Rank movement on a week's page is computed against the previous week's
@@ -40,7 +40,7 @@ SITE_DIR = ROOT / "site"
 # the page. The preseason report has no completed week yet, so it's None.
 REPORTS = [
     {
-        "path": ROOT / "reports" / "week_0_report.txt",
+        "path": ROOT / "reports" / "week_0_reports.txt",
         "output": "week-0.html",
         "nav_label": "Week 0",
         "period_label": "Preseason",
@@ -49,7 +49,7 @@ REPORTS = [
         "results_week": None,
     },
     {
-        "path": ROOT / "reports" / "week_1_report.txt",
+        "path": ROOT / "reports" / "week_1_reports.txt",
         "output": "week-1.html",
         "nav_label": "Week 1",
         "period_label": "Week 1",
