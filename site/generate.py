@@ -101,7 +101,7 @@ TIER_SLUGS = {
     "Champions": "champions",
     "Deep Playoff Runs": "deep-playoff-runs",
     "Solid Playoff Teams": "solid-playoff-teams",
-    "Outside Looking In": "solid-playoff-teams",
+    "Outside Looking In": "outside-looking-in",
     "Meh": "meh",
     "Future Dynasty / Rebuilders": "rebuilders",
 }

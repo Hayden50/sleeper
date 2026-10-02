@@ -30,6 +30,9 @@
   --tier-solid: #43b6f0;
   --tier-solid-soft: #43b6f01a;
 
+  --tier-outside: #f0954a;
+  --tier-outside-soft: #f0954a1a;
+
   --tier-meh: #8b96a5;
   --tier-meh-soft: #8b96a51a;
 
@@ -114,6 +117,7 @@ a { color: inherit; }
 .nav-champions:hover   { border-color: var(--tier-champions); }
 .nav-deep-playoff-runs:hover    { border-color: var(--tier-deep); }
 .nav-solid-playoff-teams:hover  { border-color: var(--tier-solid); }
+.nav-outside-looking-in:hover   { border-color: var(--tier-outside); }
 .nav-meh:hover                  { border-color: var(--tier-meh); }
 .nav-rebuilders:hover           { border-color: var(--tier-rebuild); }
 
@@ -164,6 +168,7 @@ a { color: inherit; }
 .tier-champions        { --tier-accent: var(--tier-champions);  --tier-accent-soft: var(--tier-champions-soft); }
 .tier-deep-playoff-runs{ --tier-accent: var(--tier-deep);       --tier-accent-soft: var(--tier-deep-soft); }
 .tier-solid-playoff-teams{ --tier-accent: var(--tier-solid);    --tier-accent-soft: var(--tier-solid-soft); }
+.tier-outside-looking-in{ --tier-accent: var(--tier-outside);  --tier-accent-soft: var(--tier-outside-soft); }
 .tier-meh              { --tier-accent: var(--tier-meh);        --tier-accent-soft: var(--tier-meh-soft); }
 .tier-rebuilders        { --tier-accent: var(--tier-rebuild);   --tier-accent-soft: var(--tier-rebuild-soft); }
 
