@@ -40,7 +40,7 @@ SITE_DIR = ROOT / "site"
 # the page. The preseason report has no completed week yet, so it's None.
 REPORTS = [
     {
-        "path": ROOT / "reports" / "week_0_reports.txt",
+        "path": ROOT / "reports" / "week_0_report.txt",
         "output": "week-0.html",
         "nav_label": "Week 0",
         "period_label": "Preseason",
@@ -49,7 +49,7 @@ REPORTS = [
         "results_week": None,
     },
     {
-        "path": ROOT / "reports" / "week_1_reports.txt",
+        "path": ROOT / "reports" / "week_1_report.txt",
         "output": "week-1.html",
         "nav_label": "Week 1",
         "period_label": "Week 1",
@@ -65,6 +65,15 @@ REPORTS = [
         "matchup_week": 3,
         "matchup_label": "week 3",
         "results_week": 2,
+    },
+    {
+        "path": ROOT / "reports" / "week_3_report.txt",
+        "output": "week-3.html",
+        "nav_label": "Week 3",
+        "period_label": "Week 3",
+        "matchup_week": 4,
+        "matchup_label": "week 4",
+        "results_week": 3,
     },
 ]
 
@@ -92,6 +101,7 @@ TIER_SLUGS = {
     "Champions": "champions",
     "Deep Playoff Runs": "deep-playoff-runs",
     "Solid Playoff Teams": "solid-playoff-teams",
+    "Outside Looking In": "solid-playoff-teams",
     "Meh": "meh",
     "Future Dynasty / Rebuilders": "rebuilders",
 }
