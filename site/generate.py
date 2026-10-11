@@ -75,6 +75,15 @@ REPORTS = [
         "matchup_label": "week 4",
         "results_week": 3,
     },
+    {
+        "path": ROOT / "reports" / "week_4_report.txt",
+        "output": "week-4.html",
+        "nav_label": "Week 4",
+        "period_label": "Week 4",
+        "matchup_week": 5,
+        "matchup_label": "week 5",
+        "results_week": 4,
+    },
 ]
 
 # Sleeper usernames don't reveal the manager's first name (or vice versa) -
