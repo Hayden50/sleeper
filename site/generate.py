@@ -38,6 +38,10 @@ SITE_DIR = ROOT / "site"
 # results_week, when set, is the most recently completed week - its final
 # scores and current injury designations are shown in a brief at the top of
 # the page. The preseason report has no completed week yet, so it's None.
+# If a week was skipped (e.g. no week 5 report), every week since the
+# previous report's results_week gets its own score brief.
+# rivalry_week, when set, means matchup_week is rivalry week - an all-time
+# head-to-head brief for each rivalry is shown above the scores.
 REPORTS = [
     {
         "path": ROOT / "reports" / "week_0_report.txt",
@@ -83,6 +87,16 @@ REPORTS = [
         "matchup_week": 5,
         "matchup_label": "week 5",
         "results_week": 4,
+    },
+    {
+        "path": ROOT / "reports" / "week_6_report.txt",
+        "output": "week-6.html",
+        "nav_label": "Week 6",
+        "period_label": "Week 6",
+        "matchup_week": 7,
+        "matchup_label": "week 7",
+        "results_week": 6,
+        "rivalry_week": True,
     },
 ]
 
@@ -691,6 +705,7 @@ def main():
     season = state["season"]
 
     prev_ranks: dict[str, int] | None = None
+    prev_results_week = 0
     matchups_by_week: dict[int, list[dict]] = {}
 
     def matchups_for(week: int) -> list[dict]:
@@ -710,11 +725,17 @@ def main():
             for week in range(1, cfg["results_week"] + 1):
                 matchups_for(week)
             records = compute_records(matchups_by_week, cfg["results_week"], team_lookup)
-            results_matchups = matchups_for(cfg["results_week"])
-            top_brief_html = render_score_brief_section(cfg["results_week"], results_matchups, team_lookup)
+            ranked_first_names = [t["first_name"] for tier in tiers for t in tier["teams"]]
+            if cfg.get("rivalry_week"):
+                import rivalry  # deferred: rivalry.py imports back from this module
+
+                top_brief_html += rivalry.render_rivalry_section(
+                    client, config, matchups, team_lookup, ranked_first_names,
+                )
+            for week in range(cfg["results_week"], prev_results_week, -1):
+                top_brief_html += render_score_brief_section(week, matchups_for(week), team_lookup)
 
             injury_by_username = build_injury_brief(rosters, team_lookup, players)
-            ranked_first_names = [t["first_name"] for tier in tiers for t in tier["teams"]]
             bottom_brief_html = render_injury_brief_section(injury_by_username, team_lookup, ranked_first_names)
 
         html_out = render_page(
@@ -734,6 +755,7 @@ def main():
         print(f"Wrote {out_path}")
 
         prev_ranks = ranks_by_first_name(tiers)
+        prev_results_week = cfg["results_week"] or 0
 
     index_html = render_index_page(league_name, season, REPORTS)
     index_path = SITE_DIR / "index.html"

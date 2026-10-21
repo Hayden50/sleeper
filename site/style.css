@@ -982,3 +982,27 @@ table.stat-table {
 .injury-chip-doubtful { border-left-color: #f2994a; }
 .injury-chip-questionable { border-left-color: var(--accent); }
 
+
+.rivalry-intro {
+  margin: -8px 0 16px;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+.rivalry-margin {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  padding-top: 6px;
+  border-top: 1px solid var(--border-soft);
+  color: var(--text-faint);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.rivalry-margin span {
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dim);
+}
