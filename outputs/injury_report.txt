@@ -1,69 +1,65 @@
 FANTASY LEAGUE INJURY REPORT
 65 rostered players carrying a current Sleeper injury_status (snapshot as of the latest player-catalog refresh).
 
-=== OUT (7) ===
+=== OUT (18) ===
   PLAYER                   POS  NFL  FANTASY TEAM         STATUS       INJURY               PRACTICE
 ----------------------------------------------------------------------------------------------------
-  DJ Moore                 WR   BUF  CharMcNabb           Out          Shoulder - AC Joint  
+  Mike Evans               WR   SF   FredJHCJ09           Out          Achilles             
+      note: Tendinitis
+  Deebo Samuel Sr.         WR   SF   HaydenR50            Out          Hamstring            
+  Marlin Klein             TE   HOU  Jsiegel1120          Out          Coach's Decision     
+  Brenen Thompson          WR   LAC  cjyarbrough          Out          Quadriceps           
+  AJ Dillon                RB   CAR  currancmm            Out          Coach's Decision     
+  Kyle Monangai            RB   CHI  currancmm            Out          Thumb                
       note: Sprain
-  Marcus Mariota           QB   WAS  FredJHCJ09           Out          Knee - MCL           
-      note: Sprain
-  Terry McLaurin           WR   WAS  FredJHCJ09           Out          Knee                 
-  Deebo Samuel             WR   SF   HaydenR50            Out          Hamstring            
-  Tre' Harris              WR   LAC  HaydenR50            Out          Hamstring            
-  Kyle Monangai            RB   CHI  currancmm            Out          Toe                  
-      note: Sprain
-  Ladd McConkey            WR   LAC  mwalter05            Out          Concussion           
+  Carnell Tate             WR   TEN  dhunt2001            Out          Shoulder             
+  Dontayvion Wicks         WR   PHI  dhunt2001            Out          Ankle                
+  Kaleb Johnson            RB   GB   dhunt2001            Out          Coach's Decision     
+  Tyjae Spears             RB   TEN  dhunt2001            Out          Knee                 
+  Emeka Egbuka             WR   TB   jessegeorge21        Out          Foot                 
+  David Montgomery         RB   HOU  jlgreen              Out          Groin                
+  Rashid Shaheed           WR   SEA  jlgreen              Out          Knee                 
+  A.J. Brown               WR   NE   nathanmedley2153     Out          Ankle                
+  TreVeyon Henderson       RB   NE   nathanmedley2153     Out          Illness              
+  Brian Robinson Jr.       RB   ATL  scottwilliamson2152  Out          Hamstring            
+  DeVonta Smith            WR   PHI  scottwilliamson2152  Out          Hamstring            
+  Haynes King              QB   CAR  scottwilliamson2152  Out          Coach's Decision     
 
-=== QUESTIONABLE (21) ===
+=== QUESTIONABLE (13) ===
   PLAYER                   POS  NFL  FANTASY TEAM         STATUS       INJURY               PRACTICE
 ----------------------------------------------------------------------------------------------------
-  Jordan Addison           WR   MIN  CharMcNabb           Questionable Hamstring            
-      note: Soreness
-  Saquon Barkley           RB   PHI  CharMcNabb           Questionable Hamstring            
+  DJ Moore                 WR   BUF  CharMcNabb           Questionable Shoulder - AC Joint  
+      note: Sprain
   Tyreek Hill              WR   FA   CharMcNabb           Questionable Knee - ACL           
       note: Surgery
-  Mike Evans               WR   SF   FredJHCJ09           Questionable Achilles             
-      note: Tendinitis
-  Rashod Bateman           WR   BAL  HaydenR50            Questionable Shoulder             
-  Baker Mayfield           QB   TB   Theowgs10            Questionable Thumb                
-      note: Dislocated
-  T.J. Hockenson           TE   MIN  Theowgs10            Questionable Concussion           
-  Colbie Young             WR   CIN  chandlerpittman      Questionable Knee                 
-  Dalton Kincaid           TE   BUF  cjyarbrough          Questionable Ribs                 
-  Adonai Mitchell          WR   NYJ  dhunt2001            Questionable Finger               
-      note: Surgery
-  Quinshon Judkins         RB   CLE  dhunt2001            Questionable Ankle                
-  Tyjae Spears             RB   TEN  dhunt2001            Questionable Undisclosed          
-  Caleb Douglas            WR   MIA  jessegeorge21        Questionable Ankle                
-  Emeka Egbuka             WR   TB   jessegeorge21        Questionable Concussion           
-  Jeremiyah Love           RB   ARI  jessegeorge21        Questionable Ankle                
-  David Montgomery         RB   HOU  jlgreen              Questionable Groin                
-  Rashee Rice              WR   KC   jlgreen              Questionable Hamstring            
+  Woody Marks              RB   HOU  FredJHCJ09           Questionable Leg                  
+  Christian Watson         WR   GB   Jsiegel1120          Questionable Undisclosed          
+  Jakobi Meyers            WR   JAX  Theowgs10            Questionable Hamstring            
+  Kenny Gainwell           RB   TB   Theowgs10            Questionable Hip                  
+  Jaylen Waddle            WR   DEN  chandlerpittman      Questionable Undisclosed          
+  Dalton Kincaid           TE   BUF  cjyarbrough          Questionable Chest                
+  George Pickens           WR   DAL  cjyarbrough          Questionable Shoulder             
+  Cam Skattebo             RB   NYG  currancmm            Questionable Hamstring            
+  Colby Parkinson          TE   LAR  dhunt2001            Questionable Ribs                 
+  Christian McCaffrey      RB   SF   jlgreen              Questionable Calf                 
   Breece Hall              RB   NYJ  mwalter05            Questionable Quadriceps           
-  Bucky Irving             RB   TB   mwalter05            Questionable Illness              
-  Tyler Warren             TE   IND  mwalter05            Questionable Groin                
-  Lamar Jackson            QB   BAL  scottwilliamson2152  Questionable Ankle                
-      note: Sprain
 
-=== PUP (1) ===
-  PLAYER                   POS  NFL  FANTASY TEAM         STATUS       INJURY               PRACTICE
-----------------------------------------------------------------------------------------------------
-  Zach Charbonnet          RB   SEA  CharMcNabb           PUP          Knee - ACL           
-      note: Surgery
-
-=== IR (36) ===
+=== IR (34) ===
   PLAYER                   POS  NFL  FANTASY TEAM         STATUS       INJURY               PRACTICE
 ----------------------------------------------------------------------------------------------------
   Jayden Reed              WR   GB   CharMcNabb           IR           Neck                 
       note: Surgery
-  Michael Pittman          WR   PIT  CharMcNabb           IR           Foot                 
+  Michael Pittman Jr.      WR   PIT  CharMcNabb           IR           Foot                 
       note: Plantar Fasciitis
   Andrei Iosivas           WR   CIN  FredJHCJ09           IR           Thumb                
       note: Surgery
-  Eli Stowers              TE   PHI  FredJHCJ09           IR           Hamstring            
+  Jaylin Noel              WR   HOU  FredJHCJ09           IR           Toe                  
+      note: Sprain
   Pat Bryant               WR   DEN  FredJHCJ09           IR           Ankle                
       note: Sprain
+  RJ Harvey                RB   DEN  FredJHCJ09           IR           Knee                 
+  Terry McLaurin           WR   WAS  FredJHCJ09           IR           Knee                 
+      note: Surgery
   Tyquan Thornton          WR   KC   FredJHCJ09           IR           Ankle                
       note: Surgery
   Adam Randall             RB   BAL  HaydenR50            IR           Undisclosed          
@@ -71,124 +67,118 @@ FANTASY LEAGUE INJURY REPORT
   Jadarian Price           RB   SEA  Jsiegel1120          IR           Chest                
   Tank Bigsby              RB   PHI  Jsiegel1120          IR           Abdomen              
       note: Surgery
-  Tank Dell                WR   HOU  Theowgs10            IR           Knee - ACL + MCL     
-      note: Surgery
-  Travis Etienne           RB   NO   Theowgs10            IR           Hamstring            
+  Travis Etienne Jr.       RB   NO   Theowgs10            IR           Hamstring            
       note: Strain
   Jayden Higgins           WR   HOU  chandlerpittman      IR           Knee - ACL           
       note: Surgery
   Jonathon Brooks          RB   CAR  chandlerpittman      IR           Abdomen              
       note: Surgery
-  Chris Brooks             RB   GB   cjyarbrough          IR           Ankle                
   Jaxson Dart              QB   NYG  cjyarbrough          IR           Knee - Meniscus      
       note: Surgery
   Jordyn Tyson             WR   NO   cjyarbrough          IR           Hamstring            
       note: Strain
-  Mack Hollins             WR   NE   cjyarbrough          IR           Calf                 
-  Chris Brazzell           WR   CAR  currancmm            IR           Knee                 
+  Chris Brazzell II        WR   CAR  currancmm            IR           Knee                 
   De'Von Achane            RB   MIA  currancmm            IR           Knee - ACL           
       note: Surgery
   Romeo Doubs              WR   NE   currancmm            IR           Shoulder             
-  Blake Grupe              K    LAR  dhunt2001            IR           Knee                 
   Jalen Hurts              QB   PHI  dhunt2001            IR           Calf                 
+  Jaylin Lane              WR   WAS  dhunt2001            IR           Ankle                
+      note: Surgery
   De'Zhaun Stribling       WR   SF   jessegeorge21        IR           Ankle                
       note: Surgery
-  Dylan Sampson            RB   CLE  jessegeorge21        IR           Knee                 
   Isiah Pacheco            RB   DET  jessegeorge21        IR           Back                 
   Terrance Ferguson        TE   LAR  jessegeorge21        IR           Ankle                
       note: Sprain
   Alec Pierce              WR   IND  jlgreen              IR           Heel                 
+  Cole Kmet                TE   CHI  jlgreen              IR           Knee                 
   Davante Adams            WR   LAR  jlgreen              IR           Hamstring            
       note: Surgery
   Jalen McMillan           WR   TB   mwalter05            IR           Knee - PCL           
       note: Sprain
-  Jordan Mason             RB   MIN  mwalter05            IR           Thumb                
-      note: Surgery
-  Jonah Coleman            RB   DEN  nathanmedley2153     IR           Ankle                
-      note: Sprain
+  Tyrone Tracy Jr.         RB   NYG  mwalter05            IR           Hamstring            
+      note: Strain
+  Dameon Pierce            RB   PHI  nathanmedley2153     IR           Undisclosed          
   Ricky Pearsall           WR   SF   nathanmedley2153     IR           Knee - PCL           
   Roman Wilson             WR   PIT  nathanmedley2153     IR           Finger               
-  Jack Bech                WR   LV   scottwilliamson2152  IR           Forearm              
-      note: Fracture
   Xavier Legette           WR   CAR  scottwilliamson2152  IR           Knee                 
 
 PER FANTASY TEAM
-  CharMcNabb (7):
-    DJ Moore                 WR   Out          Shoulder - AC Joint
-    Jordan Addison           WR   Questionable Hamstring
-    Saquon Barkley           RB   Questionable Hamstring
+  CharMcNabb (4):
+    DJ Moore                 WR   Questionable Shoulder - AC Joint
     Tyreek Hill              WR   Questionable Knee - ACL
-    Zach Charbonnet          RB   PUP          Knee - ACL
     Jayden Reed              WR   IR           Neck
-    Michael Pittman          WR   IR           Foot
-  FredJHCJ09 (7):
-    Marcus Mariota           QB   Out          Knee - MCL
-    Terry McLaurin           WR   Out          Knee
-    Mike Evans               WR   Questionable Achilles
+    Michael Pittman Jr.      WR   IR           Foot
+  FredJHCJ09 (8):
+    Mike Evans               WR   Out          Achilles
+    Woody Marks              RB   Questionable Leg
     Andrei Iosivas           WR   IR           Thumb
-    Eli Stowers              TE   IR           Hamstring
+    Jaylin Noel              WR   IR           Toe
     Pat Bryant               WR   IR           Ankle
+    RJ Harvey                RB   IR           Knee
+    Terry McLaurin           WR   IR           Knee
     Tyquan Thornton          WR   IR           Ankle
-  HaydenR50 (4):
-    Deebo Samuel             WR   Out          Hamstring
-    Tre' Harris              WR   Out          Hamstring
-    Rashod Bateman           WR   Questionable Shoulder
+  HaydenR50 (2):
+    Deebo Samuel Sr.         WR   Out          Hamstring
     Adam Randall             RB   IR           Undisclosed
-  Jsiegel1120 (3):
+  Jsiegel1120 (5):
+    Marlin Klein             TE   Out          Coach's Decision
+    Christian Watson         WR   Questionable Undisclosed
     Jacory Croskey-Merritt   RB   IR           Groin
     Jadarian Price           RB   IR           Chest
     Tank Bigsby              RB   IR           Abdomen
-  Theowgs10 (4):
-    Baker Mayfield           QB   Questionable Thumb
-    T.J. Hockenson           TE   Questionable Concussion
-    Tank Dell                WR   IR           Knee - ACL + MCL
-    Travis Etienne           RB   IR           Hamstring
+  Theowgs10 (3):
+    Jakobi Meyers            WR   Questionable Hamstring
+    Kenny Gainwell           RB   Questionable Hip
+    Travis Etienne Jr.       RB   IR           Hamstring
   chandlerpittman (3):
-    Colbie Young             WR   Questionable Knee
+    Jaylen Waddle            WR   Questionable Undisclosed
     Jayden Higgins           WR   IR           Knee - ACL
     Jonathon Brooks          RB   IR           Abdomen
   cjyarbrough (5):
-    Dalton Kincaid           TE   Questionable Ribs
-    Chris Brooks             RB   IR           Ankle
+    Brenen Thompson          WR   Out          Quadriceps
+    Dalton Kincaid           TE   Questionable Chest
+    George Pickens           WR   Questionable Shoulder
     Jaxson Dart              QB   IR           Knee - Meniscus
     Jordyn Tyson             WR   IR           Hamstring
-    Mack Hollins             WR   IR           Calf
-  currancmm (4):
-    Kyle Monangai            RB   Out          Toe
-    Chris Brazzell           WR   IR           Knee
+  currancmm (6):
+    AJ Dillon                RB   Out          Coach's Decision
+    Kyle Monangai            RB   Out          Thumb
+    Cam Skattebo             RB   Questionable Hamstring
+    Chris Brazzell II        WR   IR           Knee
     De'Von Achane            RB   IR           Knee - ACL
     Romeo Doubs              WR   IR           Shoulder
-  dhunt2001 (5):
-    Adonai Mitchell          WR   Questionable Finger
-    Quinshon Judkins         RB   Questionable Ankle
-    Tyjae Spears             RB   Questionable Undisclosed
-    Blake Grupe              K    IR           Knee
+  dhunt2001 (7):
+    Carnell Tate             WR   Out          Shoulder
+    Dontayvion Wicks         WR   Out          Ankle
+    Kaleb Johnson            RB   Out          Coach's Decision
+    Tyjae Spears             RB   Out          Knee
+    Colby Parkinson          TE   Questionable Ribs
     Jalen Hurts              QB   IR           Calf
-  jessegeorge21 (7):
-    Caleb Douglas            WR   Questionable Ankle
-    Emeka Egbuka             WR   Questionable Concussion
-    Jeremiyah Love           RB   Questionable Ankle
+    Jaylin Lane              WR   IR           Ankle
+  jessegeorge21 (4):
+    Emeka Egbuka             WR   Out          Foot
     De'Zhaun Stribling       WR   IR           Ankle
-    Dylan Sampson            RB   IR           Knee
     Isiah Pacheco            RB   IR           Back
     Terrance Ferguson        TE   IR           Ankle
-  jlgreen (4):
-    David Montgomery         RB   Questionable Groin
-    Rashee Rice              WR   Questionable Hamstring
+  jlgreen (6):
+    David Montgomery         RB   Out          Groin
+    Rashid Shaheed           WR   Out          Knee
+    Christian McCaffrey      RB   Questionable Calf
     Alec Pierce              WR   IR           Heel
+    Cole Kmet                TE   IR           Knee
     Davante Adams            WR   IR           Hamstring
-  mwalter05 (6):
-    Ladd McConkey            WR   Out          Concussion
+  mwalter05 (3):
     Breece Hall              RB   Questionable Quadriceps
-    Bucky Irving             RB   Questionable Illness
-    Tyler Warren             TE   Questionable Groin
     Jalen McMillan           WR   IR           Knee - PCL
-    Jordan Mason             RB   IR           Thumb
-  nathanmedley2153 (3):
-    Jonah Coleman            RB   IR           Ankle
+    Tyrone Tracy Jr.         RB   IR           Hamstring
+  nathanmedley2153 (5):
+    A.J. Brown               WR   Out          Ankle
+    TreVeyon Henderson       RB   Out          Illness
+    Dameon Pierce            RB   IR           Undisclosed
     Ricky Pearsall           WR   IR           Knee - PCL
     Roman Wilson             WR   IR           Finger
-  scottwilliamson2152 (3):
-    Lamar Jackson            QB   Questionable Ankle
-    Jack Bech                WR   IR           Forearm
+  scottwilliamson2152 (4):
+    Brian Robinson Jr.       RB   Out          Hamstring
+    DeVonta Smith            WR   Out          Hamstring
+    Haynes King              QB   Out          Coach's Decision
     Xavier Legette           WR   IR           Knee
