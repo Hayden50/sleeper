@@ -116,6 +116,16 @@ REPORTS = [
         "matchup_label": "week 10",
         "results_week": 9,
     },
+    {
+        "path": ROOT / "reports" / "week_10_report.txt",
+        "output": "week-10.html",
+        "nav_label": "Week 10",
+        "period_label": "Week 10",
+        "matchup_week": 11,
+        "matchup_label": "week 11",
+        "results_week": 10,
+        "playoff_odds": True,
+    },
 ]
 
 # Sleeper usernames don't reveal the manager's first name (or vice versa) -
@@ -749,6 +759,13 @@ def main():
 
                 top_brief_html += rivalry.render_rivalry_section(
                     client, config, matchups, team_lookup, ranked_first_names,
+                )
+            if cfg.get("playoff_odds"):
+                import playoff_odds  # deferred: playoff_odds.py imports back from this module
+
+                odds = playoff_odds.simulate(matchups_for, rosters, league, cfg["results_week"])
+                top_brief_html += playoff_odds.render_playoff_odds_section(
+                    odds, team_lookup, opponents, records, cfg["matchup_week"],
                 )
             for week in range(cfg["results_week"], prev_results_week, -1):
                 top_brief_html += render_score_brief_section(week, matchups_for(week), team_lookup)

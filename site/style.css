@@ -1006,3 +1006,180 @@ table.stat-table {
   font-variant-numeric: tabular-nums;
   color: var(--text-dim);
 }
+
+/* ============================================================
+   Playoff odds brief - one card per contender, win vs. loss side
+   by side. Mobile-first: cards stack single-column, the two
+   outcomes always sit next to each other.
+   ============================================================ */
+
+.odds-intro {
+  margin: -8px 0 16px;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.odds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.odds-card {
+  padding: 10px 12px 12px;
+  background: var(--surface-raised);
+  border-radius: 4px;
+}
+
+.odds-card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.odds-card-id {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.odds-card-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.odds-card-meta {
+  color: var(--text-faint);
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.odds-swing {
+  flex-shrink: 0;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.odds-outcomes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.odds-outcome {
+  --odds-color: var(--text-dim);
+  padding: 8px 10px;
+  border: 1px solid var(--border-soft);
+  border-top: 3px solid var(--odds-color);
+  border-radius: 4px;
+}
+
+.odds-win  { --odds-color: var(--move-up); }
+.odds-loss { --odds-color: var(--move-down); }
+
+.odds-outcome-label {
+  color: var(--odds-color);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.odds-outcome-main {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+.odds-pct {
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--text);
+}
+
+.odds-pct-label {
+  color: var(--text-faint);
+  font-size: 0.72rem;
+}
+
+.odds-bar {
+  height: 4px;
+  margin: 6px 0;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.odds-bar span {
+  display: block;
+  height: 100%;
+  background: var(--odds-color);
+  border-radius: 2px;
+}
+
+.odds-outcome-bye {
+  color: var(--text-faint);
+  font-size: 0.75rem;
+}
+
+.odds-outcome-bye span {
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+.odds-footnote {
+  margin: 14px 0 0;
+  color: var(--text-faint);
+  font-size: 0.78rem;
+}
+
+.odds-footnote strong { color: var(--text-dim); font-weight: 600; }
+
+@media (max-width: 640px) {
+  .brief-section { padding: 16px 14px; }
+  .odds-grid { grid-template-columns: 1fr; }
+  .odds-pct { font-size: 1.35rem; }
+}
+
+.odds-more { margin-top: 10px; }
+
+.odds-more summary {
+  cursor: pointer;
+  padding: 10px 12px;
+  background: var(--surface-raised);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  list-style-position: inside;
+}
+
+.odds-more summary span {
+  margin-left: 4px;
+  color: var(--text-faint);
+  font-weight: 400;
+  font-size: 0.78rem;
+}
+
+.odds-more[open] summary { margin-bottom: 10px; }
