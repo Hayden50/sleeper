@@ -121,36 +121,97 @@ a { color: inherit; }
 .nav-meh:hover                  { border-color: var(--tier-meh); }
 .nav-rebuilders:hover           { border-color: var(--tier-rebuild); }
 
-.week-switcher {
+.site-header-top {
   display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+  align-items: center;
+  gap: 16px;
+  min-width: 0;
 }
 
-.week-switch-link {
+.site-title { min-width: 0; }
+
+/* Week dropdown - a native <details>, so no JS. Closed it's a single
+   pill showing the current week; open, the menu floats over the page
+   rather than pushing the header taller. */
+.week-switcher {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.week-switch-current {
+  list-style: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-family: var(--font-display);
   font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  text-decoration: none;
-  color: var(--text-dim);
-  background: var(--surface-raised);
-  border: 1px solid var(--border);
+  color: #0a0d12;
+  background: var(--accent);
+  border: 1px solid var(--accent);
   border-radius: 20px;
   padding: 5px 12px;
   white-space: nowrap;
+  user-select: none;
 }
 
-.week-switch-link:hover { color: var(--text); border-color: var(--text-faint); }
+.week-switch-current::-webkit-details-marker { display: none; }
 
-.week-switch-link-active {
-  color: #0a0d12;
-  background: var(--accent);
-  border-color: var(--accent);
+.week-switch-caret {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+  transition: transform 0.15s ease;
 }
 
-.week-switch-link-active:hover { color: #0a0d12; }
+.week-switcher[open] .week-switch-caret { transform: rotate(180deg); }
+
+.week-switch-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 20;
+  min-width: 140px;
+  max-height: 60vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.week-switch-link {
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  color: var(--text-dim);
+  border-radius: 6px;
+  padding: 8px 10px;
+  white-space: nowrap;
+}
+
+.week-switch-link:hover { color: var(--text); background: var(--surface); }
+
+.week-switch-link-active { color: var(--accent); }
+.week-switch-link-active:hover { color: var(--accent); }
+
+.week-switch-all {
+  margin-top: 4px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  border-radius: 0 0 6px 6px;
+}
 
 /* ---------------------------------- layout ----------------------------- */
 
@@ -539,6 +600,16 @@ a { color: inherit; }
 /* ---------------------------------- responsive --------------------------- */
 
 @media (max-width: 640px) {
+  /* Header: title + week dropdown share row 1, tier links are row 2. */
+  .site-header-inner {
+    padding: 12px 16px;
+    gap: 10px;
+  }
+  .site-header-top {
+    width: 100%;
+    justify-content: space-between;
+  }
+
   /* Row 1: rank + avatar + name, together, same as desktop.
      Row 2: the stats get their own full-width row instead of squeezing
      in next to the avatar - there isn't room for a fixed-width stat

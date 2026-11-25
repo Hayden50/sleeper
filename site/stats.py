@@ -13,6 +13,7 @@ import re
 from pathlib import Path
 
 from generate import (
+    CSS_VERSION,
     FIRST_NAME_TO_USERNAME,
     USERNAME_TO_FIRST_NAME,
     esc,
@@ -177,7 +178,7 @@ def render_page(data: dict, team_lookup: dict, back_href: str) -> str:
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../style.css?v=""" + CSS_VERSION + """">
 </head>
 <body>
   <header class="site-header">

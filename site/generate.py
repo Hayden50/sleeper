@@ -32,6 +32,13 @@ from collectors.sleeper import SleeperClient
 
 SITE_DIR = ROOT / "site"
 
+# Appended to every stylesheet link as ?v=<hash of style.css>, so browsers
+# (and GitHub Pages' cache) fetch the new CSS as soon as it changes instead
+# of pairing new page markup with a stale cached stylesheet.
+import hashlib
+
+CSS_VERSION = hashlib.sha256((SITE_DIR / "style.css").read_bytes()).hexdigest()[:10]
+
 # Each week's report, its output page, and which live matchup week to show
 # as "this week's opponent" on that page (the matchup immediately following
 # the write-up - e.g. the preseason report previews Week 1's matchups).
@@ -611,11 +618,24 @@ def render_tier_section(
 
 
 def render_week_switcher(current_output: str) -> str:
-    links = ['<a href="index.html" class="week-switch-link">All Weeks</a>']
-    for cfg in REPORTS:
+    """A compact week dropdown: one pill showing the current week that opens
+    a menu of every week (newest first) plus All Weeks. Built on a native
+    <details> element so it works with no JS, and it takes a single pill's
+    width in the header instead of a wrapping row of every week."""
+    current = next((c for c in REPORTS if c["output"] == current_output), None)
+    label = esc(current["nav_label"]) if current else "Weeks"
+    links = []
+    for cfg in reversed(REPORTS):
         active = " week-switch-link-active" if cfg["output"] == current_output else ""
         links.append(f'<a href="{cfg["output"]}" class="week-switch-link{active}">{esc(cfg["nav_label"])}</a>')
-    return f'<nav class="week-switcher">{"".join(links)}</nav>'
+    links.append('<a href="index.html" class="week-switch-link week-switch-all">All Weeks</a>')
+    return (
+        '<details class="week-switcher">'
+        f'<summary class="week-switch-current" aria-label="Choose week">{label}'
+        '<span class="week-switch-caret" aria-hidden="true"></span></summary>'
+        f'<nav class="week-switch-menu">{"".join(links)}</nav>'
+        '</details>'
+    )
 
 
 def render_page(
@@ -641,16 +661,18 @@ def render_page(
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v={CSS_VERSION}">
 </head>
 <body>
   <header class="site-header">
     <div class="site-header-inner">
-      <div class="site-title">
-        <span class="site-title-league">{esc(league_name)}</span>
-        <span class="site-title-sub">Power Rankings · {esc(season)} Season, {esc(period_label)}</span>
+      <div class="site-header-top">
+        <div class="site-title">
+          <span class="site-title-league">{esc(league_name)}</span>
+          <span class="site-title-sub">Power Rankings · {esc(season)} Season, {esc(period_label)}</span>
+        </div>
+        {render_week_switcher(current_output)}
       </div>
-      {render_week_switcher(current_output)}
       <nav class="tier-nav">
         {nav_links}
       </nav>
@@ -693,7 +715,7 @@ def render_index_page(league_name: str, season: str, reports: list[dict]) -> str
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Public+Sans:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v={CSS_VERSION}">
 </head>
 <body>
   <header class="site-header">
