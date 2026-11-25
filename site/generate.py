@@ -126,6 +126,16 @@ REPORTS = [
         "results_week": 10,
         "playoff_odds": True,
     },
+    {
+        "path": ROOT / "reports" / "week_11_report.txt",
+        "output": "week-11.html",
+        "nav_label": "Week 11",
+        "period_label": "Week 11",
+        "matchup_week": 12,
+        "matchup_label": "week 12",
+        "results_week": 11,
+        "playoff_odds": True,
+    },
 ]
 
 # Sleeper usernames don't reveal the manager's first name (or vice versa) -
