@@ -21,6 +21,7 @@ on:
       - "outputs/**"
       - "site/**"
       - "config/**"
+      - ".github/workflows/update-site.yml"
 
 permissions:
   contents: read
@@ -32,11 +33,12 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  # Build and deploy are separate jobs (GitHub's standard Pages layout): when
+  # deploy-pages ran in the same job right after the upload, it intermittently
+  # failed with 'No artifacts named "github-pages" were found' because the
+  # just-uploaded artifact wasn't visible to the API yet.
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -68,6 +70,13 @@ jobs:
         with:
           path: _site
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
